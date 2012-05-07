@@ -1,0 +1,107 @@
+p{
+    font-size: 20px;
+}
+
+#Content_parent{
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+#Content_parent_table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+
+#SidebarR{
+    width: 200px;
+    height: auto;
+    margin: 0;
+}
+#SidebarL{
+    width: 200px;
+    height: 300px;
+    margin: 0;
+}
+#Content {
+    position: relative;
+    min-width: 600px;
+    height: auto;
+    border: 1px solid #d1d0d0;
+    padding: 0;
+    vertical-align: top;
+    padding: 5px;
+    height: auto;
+}
+
+#header_catalog{
+    position: relative;
+    height: 50px;
+    margin: 0;
+    border-radius: 10px;
+    vertical-align: bottom;font-size: 50px;text-align: center;
+
+    background-image: linear-gradient(bottom, rgb(255,255,255) 10%, rgb(191,242,234) 55%, rgb(183,232,235) 75%);
+    background-image: -o-linear-gradient(bottom, rgb(255,255,255) 10%, rgb(191,242,234) 55%, rgb(183,232,235) 75%);
+    background-image: -moz-linear-gradient(bottom, rgb(255,255,255) 10%, rgb(191,242,234) 55%, rgb(183,232,235) 75%);
+    background-image: -webkit-linear-gradient(bottom, rgb(255,255,255) 10%, rgb(191,242,234) 55%, rgb(183,232,235) 75%);
+    background-image: -ms-linear-gradient(bottom, rgb(255,255,255) 10%, rgb(191,242,234) 55%, rgb(183,232,235) 75%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.1, rgb(255,255,255)),
+        color-stop(0.55, rgb(191,242,234)),
+        color-stop(0.75, rgb(183,232,235))
+    );
+
+
+}
+
+#header_catalog p{
+    font:35px verdana, arial, helvetica, sans-serif;
+    font-weight: bold;
+    color : #000000;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+#upload_image{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#encrypt_warning{
+    display: none;
+    margin: 10px 0 10px 0;
+    outline: 2px solid #15F93B;
+    width: 100%;
+    height: 50px;
+    background: #A0F6B5;
+}
+
+#encrypt_warning p{
+    height: 18px;
+    text-align: center;
+    font: bold 35px verdana, arial, helvetica, sans-serif;
+}
+
+#loading_div p{
+    font: 13px verdana, arial, helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.centrino{
+    margin: 0 auto !important;
+}
+
+.no_margin{
+    margin: 0 !important;
+}
+
+
+

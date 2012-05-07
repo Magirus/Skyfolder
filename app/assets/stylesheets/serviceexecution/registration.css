@@ -1,0 +1,38 @@
+#fon_up{background: url('/assets/registration/ugol-up.gif') repeat-x;}
+#fon_down{background: url('/assets/registration/ugol-down.gif') repeat-x;}
+#fon_left{background: url('/assets/registration/ugol-left.gif') repeat-y;}
+#fon_right{background: url('/assets/registration/ugol-right.gif') repeat-y;}
+#td_register{width: 500px; height: auto; background: url('/assets/registration/fon.jpg');}
+
+.lime-background{
+    background: #d6e9c6;
+}
+
+#register_form{
+    padding: 5px;
+}
+
+.title{
+    text-align: center;
+    font: verdana, arial, helvetica, sans-serif;
+    color: #a47e3c;
+}
+
+.field label{
+    font-style: italic;
+    font: verdana, arial, helvetica, sans-serif;
+    font-size: 16px;
+    color: #a47e3c;
+}
+.field .input{
+    height: 25px;
+    width: 500px;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.actions {
+    width: 100%;
+    margin: 40px 200px 10px 200px;
+}
+

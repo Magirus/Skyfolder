@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+  <title>Sky folder</title>
+
+  <link rel="shortcut icon" href="/assets/rails.png" type="image/x-icon"/>
+
+  <!-- Bootstrap CSS Toolkit styles -->
+  <%= stylesheet_link_tag 'jquery_upload/bootstrap.min.css' %>
+  <!-- Shim to make HTML5 elements usable in older Internet Explorer versions -->
+  <!--[if lt IE 9]><%= javascript_include_tag "jquery_upload/html5.js"%><![endif]-->
+
+  <%= javascript_include_tag "jquery.min" %>
+  <%= javascript_include_tag "ie6/jquery.ie6blocker.js" %>
+
+  <%= stylesheet_link_tag "widgets/widget" %>
+  <%=stylesheet_link_tag 'serviceexecution/startup' %>
+  <%= stylesheet_link_tag 'jquery-ui.custom' %>
+  <%= stylesheet_link_tag 'scaffolds' %>
+  <%= stylesheet_link_tag 'serviceexecution/menu' %>
+
+  <%= javascript_include_tag "jquery-ui.min" %>
+  <%= javascript_include_tag "jquery.easing.1.3" %>
+  <%= javascript_include_tag "rails" %>
+  <%= javascript_include_tag "swfobject" %>
+  <%= javascript_include_tag "widgets/widget" %>
+  <%= javascript_include_tag "serviceexecution/starup" %>
+  <%= javascript_include_tag "widgets/jquery.color" %>
+
+
+  <%= csrf_meta_tag %>
+
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>

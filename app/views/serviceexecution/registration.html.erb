@@ -1,0 +1,17 @@
+<%= render :template => 'widgets/header'  %>
+
+<div id="register_form" class="">
+  <%= form_for(@user) do |f| %>
+      <%= f.label :login %><br />
+      <%= f.text_field :login %>
+      <%= f.label :password %><br />
+      <%= f.password_field :password %>
+      <%= f.label :password_confirmation %><br />
+      <%= f.password_field :password_confirmation %><br />
+      <%= f.label :email %><br />
+      <%= f.text_field :email %><br />
+      <%= f.submit %>
+  <% end %>
+</div>
+
+<%= render :template => 'widgets/footer'  %>

@@ -1,0 +1,82 @@
+.grdient_head{
+    background-image: linear-gradient(bottom, rgb(163,220,255) 81%, rgb(52,195,235) 53%, rgb(112,205,245) 28%);
+    background-image: -o-linear-gradient(bottom, rgb(163,220,255) 81%, rgb(52,195,235) 53%, rgb(112,205,245) 28%);
+    background-image: -moz-linear-gradient(bottom, rgb(163,220,255) 81%, rgb(52,195,235) 53%, rgb(112,205,245) 28%);
+    background-image: -webkit-linear-gradient(bottom, rgb(163,220,255) 81%, rgb(52,195,235) 53%, rgb(112,205,245) 28%);
+    background-image: -ms-linear-gradient(bottom, rgb(163,220,255) 81%, rgb(52,195,235) 53%, rgb(112,205,245) 28%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.81, rgb(163,220,255)),
+        color-stop(0.53, rgb(52,195,235)),
+        color-stop(0.28, rgb(112,205,245))
+    );
+}
+
+.gradient_content{
+    background-image: linear-gradient(bottom, rgb(159,214,224) 37%, rgb(235,235,235) 69%, rgb(215,243,250) 85%);
+    background-image: -o-linear-gradient(bottom, rgb(159,214,224) 37%, rgb(235,235,235) 69%, rgb(215,243,250) 85%);
+    background-image: -moz-linear-gradient(bottom, rgb(159,214,224) 37%, rgb(235,235,235) 69%, rgb(215,243,250) 85%);
+    background-image: -webkit-linear-gradient(bottom, rgb(159,214,224) 37%, rgb(235,235,235) 69%, rgb(215,243,250) 85%);
+    background-image: -ms-linear-gradient(bottom, rgb(159,214,224) 37%, rgb(235,235,235) 69%, rgb(215,243,250) 85%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.37, rgb(159,214,224)),
+        color-stop(0.69, rgb(235,235,235)),
+        color-stop(0.85, rgb(215,243,250))
+    );
+}
+
+.content-wrapper{
+
+}
+
+.head{
+    padding: 0 10px;
+    float: right;
+    min-width: 300px;
+    width: auto;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 8px 8px 0 0;
+}
+
+.body_content{
+    clear: both;
+    padding: 5px;
+    border: 1px solid #49afcd;
+
+    min-height: 200px;
+}
+
+.image{
+    float: left;
+    width: 20%;
+    max-width: 250px;
+    max-height: 150px;
+    margin-right: 5px;
+}
+
+.central_image{
+    margin: 20px 0;
+    width: auto;
+    max-width: 700px;
+}
+
+.image_adaptive{
+    margin: 20px 4%;
+    display: inline;
+}
+
+.text{
+    margin: 0;
+    font: italic 20px Times, arial, helvetica, sans-serif;
+    text-indent: 2em;
+    text-align: justify;
+}

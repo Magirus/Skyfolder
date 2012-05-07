@@ -1,0 +1,25 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+   authlogic:
+      error_messages:
+        login_blank: не може бути пустим
+        login_not_found: неправильно введений
+        login_invalid: ви повинні використовувати тільки букви, цифри, пробіл, і символи .-_@
+        consecutive_failed_logins_limit_exceeded: число неудачных попыток ввести пароль исчерпано, ваш аккаунт заблокирован.
+        email_invalid: невірно набраний адрес електронної скриньки
+        password_blank: не може бути пустим
+        password_invalid: неправильно введений
+        not_active: ваш аккаунт заблокований
+        not_confirmed: ваш аккаунт не подтверджений
+        not_approved: ваш аккаунт не одобрен
+        no_authentication_details: Ви не вказали відомості для реєстрації
+      models:
+        user_session: Сесія користувача
+      attributes:
+        user_session:
+          login: Логін
+          email: Адрес электронної скриньки
+          password: Пароль
+          remember_me: Запам`ятати мене

@@ -1,0 +1,2 @@
+module Serviceexecution::StartupHelper
+end

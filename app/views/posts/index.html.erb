@@ -1,0 +1,52 @@
+<% if flash[:error] %>
+    <div>
+      <%= flash[:error] %>
+    </div>
+<% end %>
+<% if flash.notice %>
+    <div>
+      <%= flash.notice %>
+    </div>
+<% end %>
+<%= form_for(:user, :url=>showfirst_post_path(:user)) do |field| %>
+    <div>
+      <%= field.label :Login %>
+      <%= field.text_field :login %>
+    </div>
+    <div>
+      <%= field.label :Password %>
+      <%= field.text_field :email %>
+    </div>
+    <div>
+        <%= field.submit "Log in"%>
+    </div>
+<% end %>
+<%= link_to 'Show first', showfirst_post_path(@posts[1])%>
+<h1>Listing posts</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Body</th>
+    <th>Created at</th>
+    <th></th>
+    <th></th>
+  </tr>
+    <th></th>
+
+<% @posts.each do |post| %>
+  <tr>
+    <td><%= link_to 'Show first', showfirst_post_path(post)%></td>
+    <td><%= post.title %></td>
+    <td><%= post.body %></td>
+    <td><%= post.created_at %></td>
+    <td><%= link_to 'Show', post %></td>
+    <td><%= link_to 'Edit', edit_post_path(post) %></td>
+    <td><%= link_to 'Destroy', post, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Post', new_post_path %>

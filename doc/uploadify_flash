@@ -1,0 +1,107 @@
+<div id="upload_form">
+                <script type="text/javascript" language="JavaScript">
+                  $(document).ready(function(){
+
+                      var csrf_token = $('meta[name=csrf-token]').attr('content');
+                      var csrf_param = $('meta[name=csrf-param]').attr('content');
+
+                      function Check_names(uploaded_file_name){
+                          var repeat_name_flag = false;
+                          var files = $("#user_files a");
+                          $.each(files, function(){
+                              if (this.text == uploaded_file_name) {repeat_name_flag = true; return false;}
+                          });
+                          return repeat_name_flag;
+                      };
+
+                      $('#upload_link').uploadify({
+                          'uploader'  : '/assets/upload/uploadify.swf',
+                          'script'    : '<%= upload_serviceexecution_account_path(:to_user) %>',
+                          'scriptData': {'user_folder': '<%= @current.id.to_s %>','format' : 'js'},
+                          'method' : 'post',
+                          'cancelImg' : '/assets/upload/cancel.png',
+                          'auto'      : true,
+                          'wmode' : 'transparent',
+                          'buttonText' : 'Browse',
+                          'onComplete'  : function(event, ID, fileObj, response, data) {
+                              var file_name = fileObj.name;
+                              if (!Check_names(file_name)){
+                                var file_path = 'public/FILES/<%= @current.id.to_s %>/'+file_name;
+                                $('#user_files').append( '<a href="'+"/serviceexecution/account/<%= @current.id %>/download?path="+file_path.toString()+' ">'+fileObj.name+'</a><br>');
+                              }
+                          },
+                          'onAllComplete' : function(event, data){
+                          },
+                          'onError': function(event, ID, fileObj, errorObj){
+                          }
+                      });
+                  });
+
+                </script>
+                <input id="upload_link" type="file"/>
+
+              </div>
+              <div id="user_files">
+                <% if @files_paths %>
+                    <% @files_paths.each do |file| %>
+                        <%= link_to file.split(/\//).last, download_serviceexecution_account_path(:id=> @current,:path=>file)%>
+                        <br>
+                    <% end %>
+                <% end %>
+              </div>
+
+                  $("#upload_image").click(function(){
+        $("#upload_form").show(1000, 'easeOutBounce', function() {});
+        //event.preventDefault();
+    });
+
+    $("#upload_form form button[name=cancel]").click(function(){
+        $("#upload_form").hide(1000, 'easeOutBounce', function() {});
+    });
+
+    $('#ajax_form').ajaxForm({dataType : 'script'});
+    $('#ajax_form').submit(function(){
+        Update_progress(0);
+        Click_link(1);
+    });
+
+});
+
+function Click_link(progress){
+    Update_progress(progress);
+    jQuery.ajax({
+        async:true,
+        url:'/serviceexecution/account/to_user/showprogress',
+        type:'POST'
+        //data: { _method:'PUT', "user[accept]": jQuery(this).is(':checked') },
+
+      });
+
+};
+
+function Update_progress(progress){
+     $('#progressbar').progressbar({
+            value:progress
+     });
+};
+
+
+#upload_image:hover{
+    background: #cc0000;
+}
+
+
+#upload_form{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    background-color: rgba(0,0,0,0.5);
+
+}
+
+#user_files{
+    border: 1px solid #d1d0d0;
+    margin: 10px 0;
+}

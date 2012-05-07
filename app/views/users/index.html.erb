@@ -1,0 +1,22 @@
+<% @current = current_user %>
+<% if @current %>
+    <div><h3>Good day, </h3><%= @current.login %></div>
+    <%= link_to "Edit profile", edit_user_path(@current) %>
+    <%= link_to "Logout", user_session_path(current_user_session), :method => :delete %>
+  <% else %>
+
+<table>
+  <tr>
+    <th>Enter or register</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+    <td><%= link_to 'Enter', new_user_session_path %></td>
+    <td><%= link_to 'Register', new_user_path, :confirm => 'Are you sure?' %></td>
+  </tr>
+</table>
+
+<br />
+<% end %>

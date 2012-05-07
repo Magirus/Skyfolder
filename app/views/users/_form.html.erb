@@ -1,0 +1,35 @@
+
+<h1 class="title">Форма реєстрації</h1>
+<%= form_for(@user) do |f| %>
+  <% if @user.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@user.errors.count, "error") %> :</h2>
+      <ul>
+      <% @user.errors.full_messages.each do |errors|%>
+          <li><%= errors %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <div class="field">
+    <%= f.label :Логін %><br />
+    <%= f.text_field :login, :class => :input %>
+  </div>
+    <div class="field">
+    <%= f.label :Пароль %><br />
+    <%= f.password_field :password, :class => :input %>
+  </div>
+  <div class="field">
+    <%= f.label "Підтвердження паролю" %><br />
+    <%= f.password_field :password_confirmation, :class => :input %>
+  </div>
+  <div class="field">
+    <%= f.label :Емеіл %><br />
+    <%= f.text_field :email, :class => :input %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit "Зареєструватися",:class => "btn btn-success fileinput_button"%>
+  </div>
+
+<% end %>

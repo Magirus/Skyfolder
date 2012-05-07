@@ -1,0 +1,77 @@
+    <div id="Header">
+      <img class="head_foot" src="/assets/widgets/header.jpg" >
+      <div id="left_block">
+        <div id="left_logo"></div>
+        <div id="text_emblem"></div>
+      </div>
+      <div id="reg_auth_errors">
+        <% if @user_session %>
+          <% if @user_session.errors.any? %>
+                <div id="error_explanation">
+                  <h2><%= pluralize(@user_session.errors.count, "error") %> :</h2>
+
+                  <ul>
+                    <% @user_session.errors.full_messages.each do |msg| %>
+                        <li><%= msg %></li>
+                    <% end %>
+                  </ul>
+                </div>
+          <% end %>
+        <% end %>
+
+      </div>
+      <div id="right_block">
+        <div id="android_logo">
+          <img src="/assets/widgets/android-logo-white.png" alt="Завантажити ANDROID-версію">
+        </div>
+        <div id="register_or_enter">
+          <% @current = current_user %>
+          <% if @current %>
+              <div><h3>Good day, </h3><%= @current.login %></div>
+              <%= link_to "Редагувати", edit_user_path(@current) %>
+              <%= link_to "Вийти", logout_user_session_path(current_user_session)%>
+              <%= link_to "Мої файли", showuser_serviceexecution_account_path(@current)%>
+          <% else %>
+              <p><a id="hover_register" href="/users/new">Зареєструватися</a> | <a id="hover_enter" href="">Увійти</a></p>
+
+              <div id="enter_form" class="">
+                <div class="image_close">
+                </div>
+                    <%= form_for(UserSession.new) do |f| %>
+                            <%= f.label :Login %>
+                            <%= f.text_field :login %>
+                            <%= f.label :password %>
+                            <%= f.password_field :password %>
+
+                            <%= f.submit "Login", :class => "submit"%>
+                       <% end %>
+              </div>
+          <% end %>
+        </div>
+      </div>
+      <div id="container_menu">
+          <div class="container">
+            <div class="menu">
+                <ul>
+                    <li class=""><a href="/serviceexecution/startup#index" >Головна</a></li>
+                    <li class=""><a href="../menu/embed.html" >Навігатор</a>
+                        <ul>
+                            <li class=""><a href="">Android клієнт</a></li>
+                            <li class=""><a href="<%= serviceexecution_android_path %>">Довідник Android</a></li>
+                            <li class=""><a href="<%= serviceexecution_web_path %>">Довідник</a></li>
+                        </ul>
+                    </li>
+
+                    <li class=""><a href="../menu/zero_dollars.html" >Додаток</a>
+                      <ul>
+                        <li class=""><a href="<%= serviceexecution_author_path %>">Автор</a></li>
+                        <li class=""><a href="<%= serviceexecution_encrypt_path %>">Шифрування</a></li>
+                        <li class=""><a href="<%= serviceexecution_fordevelopers_path %>">Для розробників</a></li>
+                      </ul>
+                    </li>
+                </ul>
+            </div>
+          </div>
+      </div>
+    </div>
+

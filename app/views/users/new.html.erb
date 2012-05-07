@@ -1,0 +1,34 @@
+<%= render :template => 'widgets/header'  %>
+
+<div id="Content_parent">
+  <table id="Content_parent_table">
+    <tr>
+      <td id="SidebarL"></td>
+      <td id="Content" class="lime-background">
+        <div id="container_form">
+          <table id="registration_wrapper" class="centrino" cellspacing="0px" >
+            <tr>
+                <td id="fon_up" colspan="3"></td>
+            </tr>
+            <tr>
+            <td id="fon_left"></td>
+            <td id="td_register">
+                <div id="register_form">
+                  <%= render 'form' %>
+                </div>
+            </td>
+            <td id="fon_right"></td>
+            </tr>
+            <tr>
+              <td id="fon_down" colspan="3"></td>
+            </tr>
+          </table>
+        </div>
+
+      </td>
+      <td id="SidebarR"></td>
+    </tr>
+  </table>
+</div>
+
+<%= render :template => 'widgets/footer'  %>
