@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
 gem 'rails'
-gem 'therubyracer'
+
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
@@ -29,7 +29,9 @@ gem "prototype-rails"
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
 # Use unicorn as the web server
-gem 'unicorn'
+#gem 'therubyracer'
+#gem 'unicorn'
+gem 'thin'
 
 # Deploy with Capistrano
 # gem 'capistrano'
