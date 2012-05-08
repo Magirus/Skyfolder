@@ -13,6 +13,7 @@ group :production do
   # gems specifically for Heroku go here
   gem 'mysql'
   gem "pg"
+  gem 'therubyracer-heroku'
 end
 
 gem 'json', '1.6.6'
