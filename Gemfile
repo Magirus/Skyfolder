@@ -6,8 +6,9 @@ gem 'rails'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-gem 'mysql'
-gem 'sqlite3'
+group :development do
+	gem 'mysql'
+end
 group :production do
   # gems specifically for Heroku go here
   gem "pg"

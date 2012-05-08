@@ -1,0 +1,3 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@created_atf1336120940.165128:@value{I"
+class:EFI"StaticAsset;	FI"id;	F"%8289944c6f90599e2f073fb1052477b9I"logical_path;	FI"menu/tech/logo-heroku.png;	TI"pathname;	FI"6$root/app/assets/images/menu/tech/logo-heroku.png;	TI"content_type;	FI"image/png;	FI"
+mtime;	FI"2012-05-04T11:33:44+03:00;	FI"length;	FI"	8572;	FI"digest;	F"%38257e7dacd140df3eae4e64a0e91c2fI"_version;	F"%46dde6621c301f4928e3b34efee9e3b5:@expires_in0

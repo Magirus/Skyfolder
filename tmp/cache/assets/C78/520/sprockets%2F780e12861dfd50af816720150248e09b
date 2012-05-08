@@ -1,0 +1,3 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@created_atf1335949951.816001:@value{I"
+class:EFI"StaticAsset;	FI"id;	F"%2c71c478f5f8fa1c4955e41d2b187236I"logical_path;	FI"cloud1.jpg;	TI"pathname;	FI"'$root/app/assets/images/cloud1.jpg;	TI"content_type;	FI"image/jpeg;	FI"
+mtime;	FI"2012-05-02T12:12:27+03:00;	FI"length;	FI"104677;	FI"digest;	F"%df1d28caeba0f78626a429240c5c37d4I"_version;	F"%46dde6621c301f4928e3b34efee9e3b5:@expires_in0

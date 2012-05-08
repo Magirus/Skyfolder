@@ -1,0 +1,4 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@created_atf1336132686.940005:@value{I"
+class:EFI"StaticAsset;	FI"id;	F"%e1e71e0d3e33c1d2723d3c3889c41f18I"logical_path;	FI""menu/how_to_use_android/5.png;	TI"pathname;	FI":$root/app/assets/images/menu/how_to_use_android/5.png;	TI"content_type;	FI"image/png;	FI"
+mtime;	FI"2012-05-04T14:56:51+03:00;	FI"length;	FI"
+17023;	FI"digest;	F"%4df884bda2f96d3b938a75edc6affaffI"_version;	F"%46dde6621c301f4928e3b34efee9e3b5:@expires_in0

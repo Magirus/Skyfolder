@@ -1,0 +1,4 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@created_atf1336120928.193443:@value{I"
+class:EFI"StaticAsset;	FI"id;	F"%a3b8e2c45840e765d3119d16fb3e69dfI"logical_path;	FI"menu/tech/fileupload.png;	TI"pathname;	FI"5$root/app/assets/images/menu/tech/fileupload.png;	TI"content_type;	FI"image/png;	FI"
+mtime;	FI"2012-05-04T11:36:32+03:00;	FI"length;	FI"
+44022;	FI"digest;	F"%875a9e2c7393fa45b2ecc87717e670b0I"_version;	F"%46dde6621c301f4928e3b34efee9e3b5:@expires_in0

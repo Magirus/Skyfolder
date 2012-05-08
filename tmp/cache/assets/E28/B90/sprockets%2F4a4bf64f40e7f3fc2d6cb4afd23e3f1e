@@ -1,0 +1,3 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@created_atf1336132414.036396:@value{I"
+class:EFI"StaticAsset;	FI"id;	F"%31e69c0a22bab20ba6f6660b8f3b5a6fI"logical_path;	FI"menu/how_to_use_web/3.png;	TI"pathname;	FI"6$root/app/assets/images/menu/how_to_use_web/3.png;	TI"content_type;	FI"image/png;	FI"
+mtime;	FI"2012-05-04T14:53:16+03:00;	FI"length;	FI"155997;	FI"digest;	F"%a1d893f6a25792af3ec80bee67eaec33I"_version;	F"%46dde6621c301f4928e3b34efee9e3b5:@expires_in0

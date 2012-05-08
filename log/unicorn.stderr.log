@@ -1,0 +1,201 @@
+I, [2012-04-26T04:20:21.432671 #2647]  INFO -- : listening on addr=0.0.0.0:3000 fd=5
+I, [2012-04-26T04:20:21.433054 #2647]  INFO -- : Refreshing Gem list
+/usr/local/lib/ruby/1.9.1/yaml.rb:56:in `<top (required)>':
+It seems your ruby installation is missing psych (for YAML output).
+To eliminate this warning, please install libyaml and reinstall your ruby.
+/usr/local/lib/ruby/gems/1.9.1/gems/execjs-1.3.0/lib/execjs/runtimes.rb:50:in `autodetect': Could not find a JavaScript runtime. See https://github.com/sstephenson/execjs for a list of available runtimes. (ExecJS::RuntimeUnavailable)
+	from /usr/local/lib/ruby/gems/1.9.1/gems/execjs-1.3.0/lib/execjs.rb:5:in `<module:ExecJS>'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/execjs-1.3.0/lib/execjs.rb:4:in `<top (required)>'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.1.3/lib/active_support/dependencies.rb:240:in `require'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.1.3/lib/active_support/dependencies.rb:240:in `block in require'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.1.3/lib/active_support/dependencies.rb:223:in `block in load_dependency'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.1.3/lib/active_support/dependencies.rb:640:in `new_constants_in'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.1.3/lib/active_support/dependencies.rb:223:in `load_dependency'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.1.3/lib/active_support/dependencies.rb:240:in `require'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/coffee-script-2.2.0/lib/coffee_script.rb:1:in `<top (required)>'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.1.3/lib/active_support/dependencies.rb:240:in `require'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.1.3/lib/active_support/dependencies.rb:240:in `block in require'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.1.3/lib/active_support/dependencies.rb:223:in `block in load_dependency'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.1.3/lib/active_support/dependencies.rb:640:in `new_constants_in'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.1.3/lib/active_support/dependencies.rb:223:in `load_dependency'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.1.3/lib/active_support/dependencies.rb:240:in `require'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/coffee-script-2.2.0/lib/coffee-script.rb:1:in `<top (required)>'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.1.3/lib/active_support/dependencies.rb:240:in `require'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.1.3/lib/active_support/dependencies.rb:240:in `block in require'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.1.3/lib/active_support/dependencies.rb:223:in `block in load_dependency'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.1.3/lib/active_support/dependencies.rb:640:in `new_constants_in'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.1.3/lib/active_support/dependencies.rb:223:in `load_dependency'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.1.3/lib/active_support/dependencies.rb:240:in `require'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/coffee-rails-3.1.1/lib/coffee-rails.rb:1:in `<top (required)>'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/bundler-1.1.3/lib/bundler/runtime.rb:68:in `require'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/bundler-1.1.3/lib/bundler/runtime.rb:68:in `block (2 levels) in require'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/bundler-1.1.3/lib/bundler/runtime.rb:66:in `each'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/bundler-1.1.3/lib/bundler/runtime.rb:66:in `block in require'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/bundler-1.1.3/lib/bundler/runtime.rb:55:in `each'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/bundler-1.1.3/lib/bundler/runtime.rb:55:in `require'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/bundler-1.1.3/lib/bundler.rb:119:in `require'
+	from /media/sf_C_DRIVE/blog/config/application.rb:7:in `<top (required)>'
+	from /usr/local/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /usr/local/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /media/sf_C_DRIVE/blog/config/environment.rb:2:in `<top (required)>'
+	from /usr/local/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /usr/local/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from config.ru:4:in `block in <main>'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.3.5/lib/rack/builder.rb:51:in `instance_eval'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.3.5/lib/rack/builder.rb:51:in `initialize'
+	from config.ru:1:in `new'
+	from config.ru:1:in `<main>'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/unicorn-4.3.0/lib/unicorn.rb:44:in `eval'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/unicorn-4.3.0/lib/unicorn.rb:44:in `block in builder'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/unicorn-4.3.0/bin/unicorn_rails:139:in `call'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/unicorn-4.3.0/bin/unicorn_rails:139:in `block in rails_builder'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/unicorn-4.3.0/lib/unicorn/http_server.rb:695:in `call'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/unicorn-4.3.0/lib/unicorn/http_server.rb:695:in `build_app!'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/unicorn-4.3.0/lib/unicorn/http_server.rb:136:in `start'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/unicorn-4.3.0/bin/unicorn_rails:209:in `<top (required)>'
+	from /usr/local/bin/unicorn_rails:23:in `load'
+	from /usr/local/bin/unicorn_rails:23:in `<main>'
+I, [2012-04-26T04:21:00.456816 #2649]  INFO -- : listening on addr=0.0.0.0:3000 fd=5
+I, [2012-04-26T04:21:00.457188 #2649]  INFO -- : Refreshing Gem list
+/usr/local/lib/ruby/1.9.1/yaml.rb:56:in `<top (required)>':
+It seems your ruby installation is missing psych (for YAML output).
+To eliminate this warning, please install libyaml and reinstall your ruby.
+E, [2012-04-26T04:21:07.496767 #2649] ERROR -- : undefined local variable or method `old_pid' for #<Unicorn::Configurator:0x00000001765470> (NameError)
+config/unicorn.rb:21:in `block in reload'
+/usr/local/lib/ruby/gems/1.9.1/gems/unicorn-4.3.0/lib/unicorn/http_server.rb:482:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/unicorn-4.3.0/lib/unicorn/http_server.rb:482:in `spawn_missing_workers'
+/usr/local/lib/ruby/gems/1.9.1/gems/unicorn-4.3.0/lib/unicorn/http_server.rb:137:in `start'
+/usr/local/lib/ruby/gems/1.9.1/gems/unicorn-4.3.0/bin/unicorn_rails:209:in `<top (required)>'
+/usr/local/bin/unicorn_rails:23:in `load'
+/usr/local/bin/unicorn_rails:23:in `<main>'
+I, [2012-04-26T04:22:07.501006 #2654]  INFO -- : listening on addr=0.0.0.0:3000 fd=5
+I, [2012-04-26T04:22:07.501371 #2654]  INFO -- : Refreshing Gem list
+/usr/local/lib/ruby/1.9.1/yaml.rb:56:in `<top (required)>':
+It seems your ruby installation is missing psych (for YAML output).
+To eliminate this warning, please install libyaml and reinstall your ruby.
+I, [2012-04-26T04:22:13.256846 #2660]  INFO -- : worker=1 ready
+I, [2012-04-26T04:22:13.267269 #2657]  INFO -- : worker=0 ready
+I, [2012-04-26T04:22:13.278063 #2663]  INFO -- : worker=2 ready
+I, [2012-04-26T04:22:13.296119 #2654]  INFO -- : master process ready
+I, [2012-04-26T04:22:13.337427 #2666]  INFO -- : worker=3 ready
+I, [2012-04-26T04:22:13.347184 #2674]  INFO -- : worker=6 ready
+I, [2012-04-26T04:22:13.356881 #2676]  INFO -- : worker=7 ready
+I, [2012-04-26T04:22:13.361557 #2669]  INFO -- : worker=4 ready
+I, [2012-04-26T04:22:13.362653 #2672]  INFO -- : worker=5 ready
+I, [2012-04-26T04:22:13.363372 #2684]  INFO -- : worker=9 ready
+I, [2012-04-26T04:22:13.372690 #2679]  INFO -- : worker=8 ready
+I, [2012-04-26T04:38:50.622044 #2654]  INFO -- : reaped #<Process::Status: pid 2657 exit 0> worker=0
+I, [2012-04-26T04:38:50.622407 #2654]  INFO -- : reaped #<Process::Status: pid 2660 exit 0> worker=1
+I, [2012-04-26T04:38:50.622731 #2654]  INFO -- : reaped #<Process::Status: pid 2663 exit 0> worker=2
+I, [2012-04-26T04:38:50.623092 #2654]  INFO -- : reaped #<Process::Status: pid 2666 exit 0> worker=3
+I, [2012-04-26T04:38:50.623583 #2654]  INFO -- : reaped #<Process::Status: pid 2669 exit 0> worker=4
+I, [2012-04-26T04:38:50.623935 #2654]  INFO -- : reaped #<Process::Status: pid 2672 exit 0> worker=5
+I, [2012-04-26T04:38:50.624142 #2654]  INFO -- : reaped #<Process::Status: pid 2674 exit 0> worker=6
+I, [2012-04-26T04:38:50.624309 #2654]  INFO -- : reaped #<Process::Status: pid 2676 exit 0> worker=7
+I, [2012-04-26T04:38:50.624809 #2654]  INFO -- : reaped #<Process::Status: pid 2679 exit 0> worker=8
+I, [2012-04-26T04:38:50.625053 #2654]  INFO -- : reaped #<Process::Status: pid 2684 exit 0> worker=9
+I, [2012-04-26T04:38:50.625347 #2654]  INFO -- : master complete
+I, [2012-04-26T05:01:11.260884 #2347]  INFO -- : listening on addr=0.0.0.0:3000 fd=5
+I, [2012-04-26T05:01:11.261220 #2347]  INFO -- : Refreshing Gem list
+/usr/local/lib/ruby/1.9.1/yaml.rb:56:in `<top (required)>':
+It seems your ruby installation is missing psych (for YAML output).
+To eliminate this warning, please install libyaml and reinstall your ruby.
+I, [2012-04-26T05:01:21.586372 #2350]  INFO -- : worker=0 ready
+I, [2012-04-26T05:01:21.587769 #2353]  INFO -- : worker=1 ready
+I, [2012-04-26T05:01:21.610830 #2356]  INFO -- : worker=2 ready
+I, [2012-04-26T05:01:21.618294 #2347]  INFO -- : master process ready
+I, [2012-04-26T05:01:21.632987 #2362]  INFO -- : worker=4 ready
+I, [2012-04-26T05:01:21.630592 #2359]  INFO -- : worker=3 ready
+I, [2012-04-26T05:01:21.643032 #2368]  INFO -- : worker=6 ready
+I, [2012-04-26T05:01:21.639662 #2365]  INFO -- : worker=5 ready
+I, [2012-04-26T05:01:21.651293 #2374]  INFO -- : worker=8 ready
+I, [2012-04-26T05:01:21.654487 #2370]  INFO -- : worker=7 ready
+I, [2012-04-26T05:01:21.657752 #2377]  INFO -- : worker=9 ready
+I, [2012-04-26T08:21:50.103762 #2347]  INFO -- : reaped #<Process::Status: pid 2350 exit 0> worker=0
+I, [2012-04-26T08:21:50.104329 #2347]  INFO -- : reaped #<Process::Status: pid 2353 exit 0> worker=1
+I, [2012-04-26T08:21:50.104641 #2347]  INFO -- : reaped #<Process::Status: pid 2356 exit 0> worker=2
+I, [2012-04-26T08:21:50.104834 #2347]  INFO -- : reaped #<Process::Status: pid 2359 exit 0> worker=3
+I, [2012-04-26T08:21:50.105017 #2347]  INFO -- : reaped #<Process::Status: pid 2362 exit 0> worker=4
+I, [2012-04-26T08:21:50.105197 #2347]  INFO -- : reaped #<Process::Status: pid 2365 exit 0> worker=5
+I, [2012-04-26T08:21:50.105371 #2347]  INFO -- : reaped #<Process::Status: pid 2368 exit 0> worker=6
+I, [2012-04-26T08:21:50.105562 #2347]  INFO -- : reaped #<Process::Status: pid 2370 exit 0> worker=7
+I, [2012-04-26T08:21:50.105739 #2347]  INFO -- : reaped #<Process::Status: pid 2374 exit 0> worker=8
+I, [2012-04-26T08:21:50.105911 #2347]  INFO -- : reaped #<Process::Status: pid 2377 exit 0> worker=9
+I, [2012-04-26T08:21:50.106182 #2347]  INFO -- : master complete
+I, [2012-04-26T08:57:25.002150 #3109]  INFO -- : listening on addr=0.0.0.0:3000 fd=5
+I, [2012-04-26T08:57:25.002558 #3109]  INFO -- : Refreshing Gem list
+/usr/local/lib/ruby/1.9.1/yaml.rb:56:in `<top (required)>':
+It seems your ruby installation is missing psych (for YAML output).
+To eliminate this warning, please install libyaml and reinstall your ruby.
+I, [2012-04-26T08:57:30.994824 #3115]  INFO -- : worker=1 ready
+I, [2012-04-26T08:57:31.005323 #3112]  INFO -- : worker=0 ready
+I, [2012-04-26T08:57:31.016291 #3121]  INFO -- : worker=3 ready
+I, [2012-04-26T08:57:31.020600 #3109]  INFO -- : master process ready
+I, [2012-04-26T08:57:31.031691 #3118]  INFO -- : worker=2 ready
+I, [2012-04-26T08:57:31.035849 #3129]  INFO -- : worker=6 ready
+I, [2012-04-26T08:57:31.031695 #3127]  INFO -- : worker=5 ready
+I, [2012-04-26T08:57:31.053144 #3137]  INFO -- : worker=9 ready
+I, [2012-04-26T08:57:31.055465 #3124]  INFO -- : worker=4 ready
+I, [2012-04-26T08:57:31.060291 #3135]  INFO -- : worker=8 ready
+I, [2012-04-26T08:57:31.062129 #3133]  INFO -- : worker=7 ready
+I, [2012-04-26T08:59:24.648898 #3109]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2012-04-26T08:59:26.480044 #3109]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2012-04-26T09:04:14.164840 #3109]  INFO -- : reaped #<Process::Status: pid 3112 exit 0> worker=0
+I, [2012-04-26T09:04:14.165173 #3109]  INFO -- : reaped #<Process::Status: pid 3115 exit 0> worker=1
+I, [2012-04-26T09:04:14.165478 #3109]  INFO -- : reaped #<Process::Status: pid 3118 exit 0> worker=2
+I, [2012-04-26T09:04:14.165836 #3109]  INFO -- : reaped #<Process::Status: pid 3121 exit 0> worker=3
+I, [2012-04-26T09:04:14.166032 #3109]  INFO -- : reaped #<Process::Status: pid 3124 exit 0> worker=4
+I, [2012-04-26T09:04:14.166238 #3109]  INFO -- : reaped #<Process::Status: pid 3127 exit 0> worker=5
+I, [2012-04-26T09:04:14.166533 #3109]  INFO -- : reaped #<Process::Status: pid 3129 exit 0> worker=6
+I, [2012-04-26T09:04:14.166919 #3109]  INFO -- : reaped #<Process::Status: pid 3133 exit 0> worker=7
+I, [2012-04-26T09:04:14.167127 #3109]  INFO -- : reaped #<Process::Status: pid 3135 exit 0> worker=8
+I, [2012-04-26T09:04:14.167290 #3109]  INFO -- : reaped #<Process::Status: pid 3137 exit 0> worker=9
+I, [2012-04-26T09:04:14.167564 #3109]  INFO -- : master complete
+I, [2012-04-26T09:50:18.416605 #29666]  INFO -- : listening on addr=0.0.0.0:3000 fd=5
+I, [2012-04-26T09:50:18.416986 #29666]  INFO -- : Refreshing Gem list
+/usr/local/lib/ruby/1.9.1/yaml.rb:56:in `<top (required)>':
+It seems your ruby installation is missing psych (for YAML output).
+To eliminate this warning, please install libyaml and reinstall your ruby.
+I, [2012-04-26T09:50:25.420389 #29672]  INFO -- : worker=0 ready
+I, [2012-04-26T09:50:25.443806 #29675]  INFO -- : worker=1 ready
+I, [2012-04-26T09:50:25.449529 #29666]  INFO -- : master process ready
+I, [2012-04-26T09:50:25.456759 #29690]  INFO -- : worker=6 ready
+I, [2012-04-26T09:50:25.457172 #29677]  INFO -- : worker=2 ready
+I, [2012-04-26T09:50:25.455763 #29693]  INFO -- : worker=7 ready
+I, [2012-04-26T09:50:25.460922 #29679]  INFO -- : worker=3 ready
+I, [2012-04-26T09:50:25.463845 #29687]  INFO -- : worker=5 ready
+I, [2012-04-26T09:50:25.472199 #29683]  INFO -- : worker=4 ready
+I, [2012-04-26T09:50:25.474580 #29699]  INFO -- : worker=9 ready
+I, [2012-04-26T09:50:25.476888 #29696]  INFO -- : worker=8 ready
+I, [2012-04-26T09:51:03.875865 #29666]  INFO -- : reaped #<Process::Status: pid 29672 exit 0> worker=0
+I, [2012-04-26T09:51:03.876190 #29666]  INFO -- : reaped #<Process::Status: pid 29675 exit 0> worker=1
+I, [2012-04-26T09:51:03.876387 #29666]  INFO -- : reaped #<Process::Status: pid 29677 exit 0> worker=2
+I, [2012-04-26T09:51:03.876563 #29666]  INFO -- : reaped #<Process::Status: pid 29679 exit 0> worker=3
+I, [2012-04-26T09:51:03.876761 #29666]  INFO -- : reaped #<Process::Status: pid 29683 exit 0> worker=4
+I, [2012-04-26T09:51:03.876935 #29666]  INFO -- : reaped #<Process::Status: pid 29687 exit 0> worker=5
+I, [2012-04-26T09:51:03.877116 #29666]  INFO -- : reaped #<Process::Status: pid 29690 exit 0> worker=6
+I, [2012-04-26T09:51:03.877275 #29666]  INFO -- : reaped #<Process::Status: pid 29693 exit 0> worker=7
+I, [2012-04-26T09:51:03.877452 #29666]  INFO -- : reaped #<Process::Status: pid 29696 exit 0> worker=8
+I, [2012-04-26T09:51:03.877632 #29666]  INFO -- : reaped #<Process::Status: pid 29699 exit 0> worker=9
+I, [2012-04-26T09:51:03.877906 #29666]  INFO -- : master complete
+I, [2012-04-26T09:51:35.110945 #29738]  INFO -- : listening on addr=0.0.0.0:3000 fd=5
+I, [2012-04-26T09:51:35.111352 #29738]  INFO -- : Refreshing Gem list
+/usr/local/lib/ruby/1.9.1/yaml.rb:56:in `<top (required)>':
+It seems your ruby installation is missing psych (for YAML output).
+To eliminate this warning, please install libyaml and reinstall your ruby.
+I, [2012-04-26T09:51:41.497139 #29738]  INFO -- : master process ready
+I, [2012-04-26T09:51:41.521180 #29753]  INFO -- : worker=0 ready
+I, [2012-04-26T09:52:56.767668 #29738]  INFO -- : reaped #<Process::Status: pid 29753 exit 0> worker=0
+I, [2012-04-26T09:52:56.768134 #29738]  INFO -- : master complete
+I, [2012-04-27T03:09:59.276745 #2293]  INFO -- : listening on addr=0.0.0.0:3000 fd=5
+I, [2012-04-27T03:09:59.277228 #2293]  INFO -- : Refreshing Gem list
+/usr/local/lib/ruby/1.9.1/yaml.rb:56:in `<top (required)>':
+It seems your ruby installation is missing psych (for YAML output).
+To eliminate this warning, please install libyaml and reinstall your ruby.
+I, [2012-04-27T03:10:09.521452 #2293]  INFO -- : master process ready
+I, [2012-04-27T03:10:09.539333 #2296]  INFO -- : worker=0 ready
+I, [2012-04-27T08:14:47.341951 #2293]  INFO -- : reloading config_file=config/unicorn.rb
+I, [2012-04-27T08:14:47.519039 #2293]  INFO -- : Refreshing Gem list
+I, [2012-04-27T08:14:47.576315 #2293]  INFO -- : done reloading config_file=config/unicorn.rb
+I, [2012-04-27T08:14:48.005948 #2293]  INFO -- : reaped #<Process::Status: pid 2296 exit 0> worker=0
+I, [2012-04-27T08:14:48.156861 #3013]  INFO -- : worker=0 ready

@@ -1,0 +1,3 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@created_atf1336118723.4533389:@value{I"
+class:EFI"StaticAsset;	FI"id;	F"%d3f422fae62fdc0ecb482d575c41bafcI"logical_path;	FI"menu/data-security.jpg;	TI"pathname;	FI"3$root/app/assets/images/menu/data-security.jpg;	TI"content_type;	FI"image/jpeg;	FI"
+mtime;	FI"2012-02-28T12:47:07+02:00;	FI"length;	FI"119330;	FI"digest;	F"%63c93d06a4a1a01a6315ed586a34a071I"_version;	F"%46dde6621c301f4928e3b34efee9e3b5:@expires_in0

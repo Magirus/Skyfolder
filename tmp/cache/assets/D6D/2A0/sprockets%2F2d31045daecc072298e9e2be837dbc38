@@ -1,0 +1,4 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@created_atf1336116878.983841:@value{I"
+class:EFI"StaticAsset;	FI"id;	F"%9e605037b5331e16f5ba81a48cb25495I"logical_path;	FI"menu/bachelor.png;	TI"pathname;	FI".$root/app/assets/images/menu/bachelor.png;	TI"content_type;	FI"image/png;	FI"
+mtime;	FI"2012-05-04T10:34:10+03:00;	FI"length;	FI"
+14867;	FI"digest;	F"%f24b810f9b98ea47847d458aa2f25945I"_version;	F"%46dde6621c301f4928e3b34efee9e3b5:@expires_in0

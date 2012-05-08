@@ -1,0 +1,4 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@created_atf1336130212.128454:@value{I"
+class:EFI"StaticAsset;	FI"id;	F"%a4e22300203d278b4eef4dd2c6d01be8I"logical_path;	FI"menu/tech/logo-android.png;	TI"pathname;	FI"7$root/app/assets/images/menu/tech/logo-android.png;	TI"content_type;	FI"image/png;	FI"
+mtime;	FI"2012-05-04T14:06:15+03:00;	FI"length;	FI"
+13368;	FI"digest;	F"%773ecc6ca1674ad4289e5c225c69748aI"_version;	F"%46dde6621c301f4928e3b34efee9e3b5:@expires_in0

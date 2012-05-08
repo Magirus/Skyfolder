@@ -1,0 +1,4 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@created_atf1336116643.62338:@value{I"
+class:EFI"StaticAsset;	FI"id;	F"%69a8ad5cfc67633f959bd7e62c3dde41I"logical_path;	FI"menu/author.png;	TI"pathname;	FI",$root/app/assets/images/menu/author.png;	TI"content_type;	FI"image/png;	FI"
+mtime;	FI"2010-02-27T21:41:51+02:00;	FI"length;	FI"
+91572;	FI"digest;	F"%69898d1cbeebde3da3d857fa8cbc4f50I"_version;	F"%46dde6621c301f4928e3b34efee9e3b5:@expires_in0

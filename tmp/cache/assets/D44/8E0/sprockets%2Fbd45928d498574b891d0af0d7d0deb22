@@ -1,0 +1,3 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@created_atf1335262418.810805:@value{I"
+class:EFI"StaticAsset;	FI"id;	F"%f1a40d498b8ceed1587be0c65b06340dI"logical_path;	FI"+images/ui-bg_glass_65_ffffff_1x400.png;	TI"pathname;	FI"}C:/Ruby193/lib/ruby/gems/1.9.1/gems/jquery-rails-1.0.19/vendor/assets/stylesheets/images/ui-bg_glass_65_ffffff_1x400.png;	TI"content_type;	FI"image/png;	FI"
+mtime;	FI"2012-02-28T03:01:22+02:00;	FI"length;	FI"105;	FI"digest;	F"%999f0543c3333932cc1c675a51efe822I"_version;	F"%46dde6621c301f4928e3b34efee9e3b5:@expires_in0

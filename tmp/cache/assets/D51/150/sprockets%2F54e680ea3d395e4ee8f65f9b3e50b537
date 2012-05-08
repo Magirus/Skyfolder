@@ -1,0 +1,4 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@created_atf1336120928.112438:@value{I"
+class:EFI"StaticAsset;	FI"id;	F"%f1b37425a3db42d5e5da7acc85b3e9caI"logical_path;	FI"menu/tech/ajax.jpg;	TI"pathname;	FI"/$root/app/assets/images/menu/tech/ajax.jpg;	TI"content_type;	FI"image/jpeg;	FI"
+mtime;	FI"2012-05-04T11:37:47+03:00;	FI"length;	FI"
+21954;	FI"digest;	F"%f036511de7d499bb6ded871b408d71c8I"_version;	F"%46dde6621c301f4928e3b34efee9e3b5:@expires_in0

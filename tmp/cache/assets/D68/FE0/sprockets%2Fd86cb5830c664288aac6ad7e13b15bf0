@@ -1,0 +1,4 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@created_atf1336130212.06145:@value{I"
+class:EFI"StaticAsset;	FI"id;	F"%6490fd694f2897b6ce5b8c3859044685I"logical_path;	FI"menu/tech/logo-java.png;	TI"pathname;	FI"4$root/app/assets/images/menu/tech/logo-java.png;	TI"content_type;	FI"image/png;	FI"
+mtime;	FI"2012-05-04T14:06:10+03:00;	FI"length;	FI"
+10480;	FI"digest;	F"%1aa15dcf879e2c25c150851947a60451I"_version;	F"%46dde6621c301f4928e3b34efee9e3b5:@expires_in0

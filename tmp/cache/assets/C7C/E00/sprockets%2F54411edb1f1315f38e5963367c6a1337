@@ -1,0 +1,4 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@created_atf1336120928.254446:@value{I"
+class:EFI"StaticAsset;	FI"id;	F"%cfedfc570ffd1a54c9ff8e99e324b91aI"logical_path;	FI"menu/tech/carrierwave.png;	TI"pathname;	FI"6$root/app/assets/images/menu/tech/carrierwave.png;	TI"content_type;	FI"image/png;	FI"
+mtime;	FI"2012-05-04T11:34:51+03:00;	FI"length;	FI"
+63791;	FI"digest;	F"%6b7e54b8a822ddd76d1c436ac6550a6eI"_version;	F"%46dde6621c301f4928e3b34efee9e3b5:@expires_in0
