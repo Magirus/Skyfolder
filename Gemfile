@@ -8,6 +8,10 @@ gem 'rails'
 
 gem 'mysql'
 gem 'sqlite3'
+group :production do
+  # gems specifically for Heroku go here
+  gem "pg"
+end
 
 gem 'json', '1.6.6'
 gem "authlogic"
