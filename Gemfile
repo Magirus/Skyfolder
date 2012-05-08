@@ -11,6 +11,7 @@ group :development do
 end
 group :production do
   # gems specifically for Heroku go here
+  gem 'mysql'
   gem "pg"
 end
 
