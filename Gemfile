@@ -31,7 +31,7 @@ gem "prototype-rails"
 # Use unicorn as the web server
 #gem 'therubyracer'
 #gem 'unicorn'
-gem 'thin'
+#gem 'thin'
 
 # Deploy with Capistrano
 # gem 'capistrano'
