@@ -38709,3 +38709,208 @@ Started DELETE "/uploader/pictures/506" for 127.0.0.1 at 2012-05-07 23:07:33 +03
   [1m[36mSQL (1.0ms)[0m  [1mDELETE FROM `pictures` WHERE `pictures`.`id` = ?[0m  [["id", 506]]
   [1m[35m (25.0ms)[0m  COMMIT
 Completed 200 OK in 102ms (Views: 19.0ms | ActiveRecord: 50.0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-05-08 12:41:47 +0300
+Served asset /rails.png - 200 OK (53ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-05-08 12:41:52 +0300
+  Processing by Serviceexecution::StartupController#index as HTML
+Rendered widgets/header.html.erb (5.0ms)
+Rendered widgets/footer.html.erb (0.0ms)
+Rendered serviceexecution/startup/index.html.erb within layouts/serviceexecution/startup (86.0ms)
+Compiled jquery_upload/bootstrap.min.css  (17ms)  (pid 5064)
+Compiled jquery_upload/html5.js  (17ms)  (pid 5064)
+Compiled jquery.min  (29ms)  (pid 5064)
+Compiled ie6/jquery.ie6blocker.js  (14ms)  (pid 5064)
+Compiled widgets/widget.css  (11ms)  (pid 5064)
+Compiled serviceexecution/startup.css  (14ms)  (pid 5064)
+Compiled jquery-ui.custom  (20ms)  (pid 5064)
+Compiled scaffolds.css  (30ms)  (pid 5064)
+Compiled jquery-ui.min  (38ms)  (pid 5064)
+Compiled jquery.easing.1.3  (34ms)  (pid 5064)
+Compiled rails.js  (34ms)  (pid 5064)
+Compiled swfobject.js  (21ms)  (pid 5064)
+Compiled widgets/widget.js  (17ms)  (pid 5064)
+Compiled serviceexecution/starup.js  (11ms)  (pid 5064)
+Compiled widgets/jquery.color  (11ms)  (pid 5064)
+Completed 200 OK in 1445ms (Views: 1121.1ms | ActiveRecord: 34.0ms)
+
+
+Started GET "/assets/jquery_upload/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-05-08 12:41:54 +0300
+Served asset /jquery_upload/bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min?body=1" for 127.0.0.1 at 2012-05-08 12:41:54 +0300
+Served asset /jquery.min - 200 OK (62ms)
+
+
+Started GET "/assets/serviceexecution/startup.css?body=1" for 127.0.0.1 at 2012-05-08 12:41:54 +0300
+Served asset /serviceexecution/startup.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/widgets/widget.css?body=1" for 127.0.0.1 at 2012-05-08 12:41:54 +0300
+Served asset /widgets/widget.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ie6/jquery.ie6blocker.js?body=1" for 127.0.0.1 at 2012-05-08 12:41:54 +0300
+Served asset /ie6/jquery.ie6blocker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.custom?body=1" for 127.0.0.1 at 2012-05-08 12:41:54 +0300
+Served asset /jquery-ui.custom - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-08 12:41:54 +0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.min?body=1" for 127.0.0.1 at 2012-05-08 12:41:54 +0300
+Served asset /jquery-ui.min - 200 OK (93ms)
+
+
+Started GET "/assets/jquery.easing.1.3?body=1" for 127.0.0.1 at 2012-05-08 12:41:54 +0300
+Served asset /jquery.easing.1.3 - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-05-08 12:41:54 +0300
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/serviceexecution/starup.js?body=1" for 127.0.0.1 at 2012-05-08 12:41:54 +0300
+Served asset /serviceexecution/starup.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/swfobject.js?body=1" for 127.0.0.1 at 2012-05-08 12:41:54 +0300
+Served asset /swfobject.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/widgets/widget.js?body=1" for 127.0.0.1 at 2012-05-08 12:41:54 +0300
+Served asset /widgets/widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/widgets/jquery.color?body=1" for 127.0.0.1 at 2012-05-08 12:41:54 +0300
+Served asset /widgets/jquery.color - 304 Not Modified (0ms)
+
+
+Started GET "/assets/widgets/header.jpg" for 127.0.0.1 at 2012-05-08 12:41:55 +0300
+Served asset /widgets/header.jpg - 304 Not Modified (65ms)
+
+
+Started GET "/assets/widgets/text.png" for 127.0.0.1 at 2012-05-08 12:41:55 +0300
+Served asset /widgets/text.png - 304 Not Modified (46ms)
+
+
+Started GET "/assets/widgets/android-logo-white.png" for 127.0.0.1 at 2012-05-08 12:41:55 +0300
+Served asset /widgets/android-logo-white.png - 304 Not Modified (32ms)
+
+
+Started GET "/assets/cloud1.jpg" for 127.0.0.1 at 2012-05-08 12:41:55 +0300
+Served asset /cloud1.jpg - 304 Not Modified (24ms)
+
+
+Started GET "/assets/widgets/footer.jpg" for 127.0.0.1 at 2012-05-08 12:41:55 +0300
+Served asset /widgets/footer.jpg - 304 Not Modified (65ms)
+
+
+Started GET "/assets/images/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2012-05-08 12:41:55 +0300
+Served asset /images/ui-bg_flat_75_ffffff_40x100.png - 304 Not Modified (46ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-05-08 12:41:57 +0300
+  Processing by UsersController#new as HTML
+Rendered widgets/header.html.erb (33.0ms)
+Rendered users/_form.html.erb (30.0ms)
+Rendered widgets/footer.html.erb (0.0ms)
+Rendered users/new.html.erb within layouts/serviceexecution/registration (148.0ms)
+Compiled serviceexecution/registration.css  (17ms)  (pid 5064)
+Completed 200 OK in 238ms (Views: 223.0ms | ActiveRecord: 15.0ms)
+
+
+Started GET "/assets/widgets/widget.css?body=1" for 127.0.0.1 at 2012-05-08 12:41:57 +0300
+Served asset /widgets/widget.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/serviceexecution/startup.css?body=1" for 127.0.0.1 at 2012-05-08 12:41:57 +0300
+Served asset /serviceexecution/startup.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/serviceexecution/registration.css?body=1" for 127.0.0.1 at 2012-05-08 12:41:57 +0300
+Served asset /serviceexecution/registration.css - 200 OK (33ms)
+
+
+Started GET "/assets/jquery-ui.custom?body=1" for 127.0.0.1 at 2012-05-08 12:41:57 +0300
+Served asset /jquery-ui.custom - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_upload/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-05-08 12:41:57 +0300
+Served asset /jquery_upload/bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-08 12:41:57 +0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min?body=1" for 127.0.0.1 at 2012-05-08 12:41:57 +0300
+Served asset /jquery.min - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3?body=1" for 127.0.0.1 at 2012-05-08 12:41:57 +0300
+Served asset /jquery.easing.1.3 - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.min?body=1" for 127.0.0.1 at 2012-05-08 12:41:57 +0300
+Served asset /jquery-ui.min - 304 Not Modified (0ms)
+
+
+Started GET "/assets/swfobject.js?body=1" for 127.0.0.1 at 2012-05-08 12:41:58 +0300
+Served asset /swfobject.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/widgets/widget.js?body=1" for 127.0.0.1 at 2012-05-08 12:41:58 +0300
+Served asset /widgets/widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/serviceexecution/starup.js?body=1" for 127.0.0.1 at 2012-05-08 12:41:58 +0300
+Served asset /serviceexecution/starup.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/widgets/jquery.color?body=1" for 127.0.0.1 at 2012-05-08 12:41:58 +0300
+Served asset /widgets/jquery.color - 304 Not Modified (0ms)
+
+
+Started GET "/assets/widgets/header.jpg" for 127.0.0.1 at 2012-05-08 12:41:58 +0300
+Served asset /widgets/header.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/widgets/text.png" for 127.0.0.1 at 2012-05-08 12:41:58 +0300
+Served asset /widgets/text.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/widgets/android-logo-white.png" for 127.0.0.1 at 2012-05-08 12:41:58 +0300
+Served asset /widgets/android-logo-white.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registration/ugol-up.gif" for 127.0.0.1 at 2012-05-08 12:41:58 +0300
+Served asset /registration/ugol-up.gif - 304 Not Modified (26ms)
+
+
+Started GET "/assets/registration/ugol-left.gif" for 127.0.0.1 at 2012-05-08 12:41:58 +0300
+Served asset /registration/ugol-left.gif - 304 Not Modified (22ms)
+
+
+Started GET "/assets/registration/fon.jpg" for 127.0.0.1 at 2012-05-08 12:41:58 +0300
+Served asset /registration/fon.jpg - 304 Not Modified (53ms)
+
+
+Started GET "/assets/registration/ugol-right.gif" for 127.0.0.1 at 2012-05-08 12:41:59 +0300
+Served asset /registration/ugol-right.gif - 304 Not Modified (15ms)
+
+
+Started GET "/assets/registration/ugol-down.gif" for 127.0.0.1 at 2012-05-08 12:41:59 +0300
+Served asset /registration/ugol-down.gif - 304 Not Modified (15ms)
+
+
+Started GET "/assets/widgets/footer.jpg" for 127.0.0.1 at 2012-05-08 12:41:59 +0300
+Served asset /widgets/footer.jpg - 304 Not Modified (0ms)

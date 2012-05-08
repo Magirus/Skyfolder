@@ -1,0 +1,1 @@
+{"klass":"Taps::Push","database_url":"mysql://root:qwerty@localhost/blog?encoding=utf8","remote_url":"http://heroku:osui59a24am79x@taps19.heroku.com","session_uri":"/sessions/5064362115","stream_state":{},"completed_tables":["pictures","schema_migrations","user_sessions"],"table_filter":null,"local_tables_info":{"pictures":4,"schema_migrations":11,"user_sessions":0,"users":3}}
