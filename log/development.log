@@ -47543,3 +47543,15 @@ Completed 200 OK in 87ms (Views: 21.0ms | ActiveRecord: 60.0ms)
 
 Started GET "/assets/jquery/images/ui-bg_glass_65_ffffff_1x400.png" for 127.0.0.1 at 2012-05-10 20:25:49 +0300
 Served asset /jquery/images/ui-bg_glass_65_ffffff_1x400.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-05-10 20:33:21 +0300
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-05-10 20:37:28 +0300
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-05-10 20:49:59 +0300
+Served asset /rails.png - 304 Not Modified (0ms)

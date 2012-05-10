@@ -8,6 +8,6 @@ class AvatarUploader < CarrierWave::Uploader::Base
   end
 
   def store_dir
-    "#{Rails.root}/FILES/#{model.user_id}/"
+    "#{Rails.root}/tmp/FILES/#{model.user_id}/"
   end
 end

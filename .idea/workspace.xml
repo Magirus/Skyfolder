@@ -44,19 +44,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="avatar_uploader.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="avatar_uploader.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/uploaders/avatar_uploader.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="25" selection-start="243" selection-end="264" vertical-scroll-proportion="0.0">
+            <state line="10" column="29" selection-start="243" selection-end="268" vertical-scroll-proportion="0.37037036">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="account_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="account_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/serviceexecution/account_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="114" column="54" selection-start="2913" selection-end="2913" vertical-scroll-proportion="0.33333334">
+            <state line="9" column="78" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -781,16 +781,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/uploaders/avatar_uploader.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/serviceexecution/account_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="25" selection-start="243" selection-end="264" vertical-scroll-proportion="0.0">
+        <state line="9" column="78" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/serviceexecution/account_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/uploaders/avatar_uploader.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="54" selection-start="2913" selection-end="2913" vertical-scroll-proportion="0.33333334">
+        <state line="10" column="29" selection-start="243" selection-end="268" vertical-scroll-proportion="0.37037036">
           <folding />
         </state>
       </provider>
