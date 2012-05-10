@@ -590,7 +590,7 @@ $.Widget.prototype = {
  * http://docs.jquery.com/UI/Mouse
  *
  * Depends:
- *	jquery.ui.widget.js
+ *	jquery-ui-widget.js
  */
 (function( $, undefined ) {
 
@@ -1006,7 +1006,7 @@ if ( !$.offset.setOffset ) {
  * Depends:
  *	jquery.ui.core.js
  *	jquery.ui.mouse.js
- *	jquery.ui.widget.js
+ *	jquery-ui-widget.js
  */
 (function( $, undefined ) {
 
@@ -1830,7 +1830,7 @@ $.ui.plugin.add("draggable", "zIndex", {
  *
  * Depends:
  *	jquery.ui.core.js
- *	jquery.ui.widget.js
+ *	jquery-ui-widget.js
  *	jquery.ui.mouse.js
  *	jquery.ui.draggable.js
  */
@@ -2127,7 +2127,7 @@ $.ui.ddmanager = {
  * Depends:
  *	jquery.ui.core.js
  *	jquery.ui.mouse.js
- *	jquery.ui.widget.js
+ *	jquery-ui-widget.js
  */
 (function( $, undefined ) {
 
@@ -2969,7 +2969,7 @@ var isNumber = function(value) {
  * Depends:
  *	jquery.ui.core.js
  *	jquery.ui.mouse.js
- *	jquery.ui.widget.js
+ *	jquery-ui-widget.js
  */
 (function( $, undefined ) {
 
@@ -3235,7 +3235,7 @@ $.extend($.ui.selectable, {
  * Depends:
  *	jquery.ui.core.js
  *	jquery.ui.mouse.js
- *	jquery.ui.widget.js
+ *	jquery-ui-widget.js
  */
 (function( $, undefined ) {
 
@@ -4311,7 +4311,7 @@ $.extend($.ui.sortable, {
  *
  * Depends:
  *	jquery.ui.core.js
- *	jquery.ui.widget.js
+ *	jquery-ui-widget.js
  */
 (function( $, undefined ) {
 
@@ -4922,7 +4922,7 @@ $.extend( $.ui.accordion, {
  *
  * Depends:
  *	jquery.ui.core.js
- *	jquery.ui.widget.js
+ *	jquery-ui-widget.js
  *	jquery.ui.position.js
  */
 (function( $, undefined ) {
@@ -5355,7 +5355,7 @@ $.extend( $.ui.autocomplete, {
  *
  * Depends:
  *	jquery.ui.core.js
- *  jquery.ui.widget.js
+ *  jquery-ui-widget.js
  */
 (function($) {
 
@@ -5534,7 +5534,7 @@ $.widget("ui.menu", {
  *
  * Depends:
  *	jquery.ui.core.js
- *	jquery.ui.widget.js
+ *	jquery-ui-widget.js
  */
 (function( $, undefined ) {
 
@@ -5950,7 +5950,7 @@ $.widget( "ui.buttonset", {
  *
  * Depends:
  *	jquery.ui.core.js
- *	jquery.ui.widget.js
+ *	jquery-ui-widget.js
  *  jquery.ui.button.js
  *	jquery.ui.draggable.js
  *	jquery.ui.mouse.js
@@ -6829,7 +6829,7 @@ $.extend($.ui.dialog.overlay.prototype, {
  * Depends:
  *	jquery.ui.core.js
  *	jquery.ui.mouse.js
- *	jquery.ui.widget.js
+ *	jquery-ui-widget.js
  */
 (function( $, undefined ) {
 
@@ -7494,7 +7494,7 @@ $.extend( $.ui.slider, {
  *
  * Depends:
  *	jquery.ui.core.js
- *	jquery.ui.widget.js
+ *	jquery-ui-widget.js
  */
 (function( $, undefined ) {
 
@@ -10075,7 +10075,7 @@ window['DP_jQuery_' + dpuuid] = $;
  *
  * Depends:
  *   jquery.ui.core.js
- *   jquery.ui.widget.js
+ *   jquery-ui-widget.js
  */
 (function( $, undefined ) {
 
