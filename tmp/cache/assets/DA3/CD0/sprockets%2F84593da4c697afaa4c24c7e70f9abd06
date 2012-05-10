@@ -1,4 +1,6 @@
-o: ActiveSupport::Cache::Entry	:@expires_in0:@value{"asset_paths["G$root/app/assets/javascripts/jquery_upload/jquery.fileupload-ui.js"	body"(i/*
+o: ActiveSupport::Cache::Entry	:@compressedF:@value{I"
+class:EFI"BundledAsset;FI"id;F"%3f4d02203a114663e1243882826f388bI"logical_path;FI"*jquery_upload/jquery.fileupload-ui.js;TI"pathname;FI"G$root/app/assets/javascripts/jquery_upload/jquery.fileupload-ui.js;TI"content_type;FI"application/javascript;FI"
+mtime;FI"2012-04-19T23:05:19+03:00;FI"	body;FI"(i/*
  * jQuery File Upload User Interface Plugin 6.6.3
  * https://github.com/blueimp/jQuery-File-Upload
  *
@@ -662,7 +664,5 @@
     });
 
 }));
-"content_type"application/javascript"
-class"BundledAsset"
-mtime"2012-04-19T23:05:19+03:00"_version"%46dde6621c301f4928e3b34efee9e3b5"id"%73d224e70dc32221199d7bf11c38bd8d"dependency_paths[{"hexdigest"%c577017ac7777321ac31056edfa4f948"
-mtimeu:	Timet�  0"	path"G$root/app/assets/javascripts/jquery_upload/jquery.fileupload-ui.js"pathname"G$root/app/assets/javascripts/jquery_upload/jquery.fileupload-ui.js"logical_path"*jquery_upload/jquery.fileupload-ui.js:@compressedF:@created_atf1334865921.5280459 ˁ
+;FI"asset_paths;F[I"G$root/app/assets/javascripts/jquery_upload/jquery.fileupload-ui.js;TI"dependency_paths;F[{I"	path;FI"G$root/app/assets/javascripts/jquery_upload/jquery.fileupload-ui.js;TI"
+mtime;FIu:	Timet�  0:@_zoneI"#╘шэы эфш  (ыхЄю);T:offseti0*I"hexdigest;F"%3ea1529d3d4b502524eb8cbfd3713fa3I"_version;F"%0868aba5d4b750d3a9421721ea3d9b9c:@created_atf1336472732.362428:@expires_in0

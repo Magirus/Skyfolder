@@ -1,3 +1,3 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@created_atf1336131468.991342:@value{I"
-class:EFI"StaticAsset;	FI"id;	F"%3b528f1dfc1b1f044c1757417962f290I"logical_path;	FI"menu/how_to_use_web/1.png;	TI"pathname;	FI"6$root/app/assets/images/menu/how_to_use_web/1.png;	TI"content_type;	FI"image/png;	FI"
-mtime;	FI"2012-05-04T14:37:07+03:00;	FI"length;	FI"154976;	FI"digest;	F"%e58d7130098779ab0d48b38676a40c8dI"_version;	F"%46dde6621c301f4928e3b34efee9e3b5:@expires_in0
+o: ActiveSupport::Cache::Entry	:@compressedF:@value{I"
+class:EFI"StaticAsset;FI"id;F"%337bf103aa3563e8211c20e52ff80d0aI"logical_path;FI"menu/how_to_use_web/1.png;TI"pathname;FI"6$root/app/assets/images/menu/how_to_use_web/1.png;TI"content_type;FI"image/png;FI"
+mtime;FI"2012-05-04T14:37:07+03:00;FI"length;FI"154976;FI"digest;F"%29dd2f0577cc8bc0062a8fd17a10101aI"_version;F"%0868aba5d4b750d3a9421721ea3d9b9c:@created_atf1336662532.2502341:@expires_in0

@@ -1,4 +1,4 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@created_atf1336049333.0444002:@value{	I"length:EFi;I"digest;	F"%111faface2433d4b37f1fc2b43e45128I"source;	FI";$(document).ready(function(){
+o: ActiveSupport::Cache::Entry	:@compressedF:@value{	I"length:EFi;I"digest;F"%b4b577d1e01cfc89f209808467f9105eI"source;FI";$(document).ready(function(){
     $(function() {
 		$( "#how_to_use_tabs" ).tabs();
         setCookie("enc", false);
@@ -68,4 +68,4 @@ function setCookie(c_name,value,exdays)
 };
 
 
-;	TI"_version;	F"%9a10c8e9f8feb54c3cd8aedf4868506e:@expires_in0
+;TI"_version;F"%0aea1a739f9444c2372b754821273522:@created_atf1336472712.8173099:@expires_in0

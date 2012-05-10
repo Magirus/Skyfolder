@@ -1,3 +1,3 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@created_atf1336327228.162745:@value{I"
-class:EFI"StaticAsset;	FI"id;	F"%67e3edfa04fb79509b14a57fbd2a2f93I"logical_path;	FI""menu/how_to_use_android/2.png;	TI"pathname;	FI":$root/app/assets/images/menu/how_to_use_android/2.png;	TI"content_type;	FI"image/png;	FI"
-mtime;	FI"2012-05-06T11:11:31+03:00;	FI"length;	FI"	8776;	FI"digest;	F"%cd87c4903078f0aefb3872bfc69f5804I"_version;	F"%46dde6621c301f4928e3b34efee9e3b5:@expires_in0
+o: ActiveSupport::Cache::Entry	:@compressedF:@value{I"
+class:EFI"StaticAsset;FI"id;F"%6550b7de6d8a1c2afc3955435819fe1aI"logical_path;FI""menu/how_to_use_android/2.png;TI"pathname;FI":$root/app/assets/images/menu/how_to_use_android/2.png;TI"content_type;FI"image/png;FI"
+mtime;FI"2012-05-06T11:11:31+03:00;FI"length;FI"	8776;FI"digest;F"%c4568f40df4ce36a1edfc4795d70c05fI"_version;F"%0868aba5d4b750d3a9421721ea3d9b9c:@created_atf1336476823.821446:@expires_in0

@@ -1,0 +1,3 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@value{I"
+class:EFI"StaticAsset;FI"id;F"%2a57b52f02720de385d4fe0fce31e5e1I"logical_path;FI"2jquery/images/ui-bg_glass_65_ffffff_1x400.png;TI"pathname;FI"O$root/app/assets/stylesheets/jquery/images/ui-bg_glass_65_ffffff_1x400.png;TI"content_type;FI"image/png;FI"
+mtime;FI"2012-02-28T03:01:22+02:00;FI"length;FI"105;FI"digest;F"%c2e4698d7ae271499f1c74d91e68162bI"_version;F"%0868aba5d4b750d3a9421721ea3d9b9c:@created_atf1336662486.1655989:@expires_in0

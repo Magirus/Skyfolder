@@ -1,4 +1,6 @@
-o: ActiveSupport::Cache::Entry	:@expires_in0:@value{"asset_paths["J$root/app/assets/javascripts/jquery_upload/jquery.iframe-transport.js"	body"ö/*
+o: ActiveSupport::Cache::Entry	:@compressedF:@value{I"
+class:EFI"BundledAsset;FI"id;F"%94df81ce1427bc482e747723be2dad08I"logical_path;FI"-jquery_upload/jquery.iframe-transport.js;TI"pathname;FI"J$root/app/assets/javascripts/jquery_upload/jquery.iframe-transport.js;TI"content_type;FI"application/javascript;FI"
+mtime;FI"2012-03-20T22:38:40+02:00;FI"	body;FI"ö/*
  * jQuery Iframe Transport Plugin 1.4
  * https://github.com/blueimp/jQuery-File-Upload
  *
@@ -170,8 +172,6 @@
     });
 
 }));
-"content_type"application/javascript"
-class"BundledAsset"
-mtime"2012-03-20T22:38:40+02:00"_version"%46dde6621c301f4928e3b34efee9e3b5"id"%bf6bdc153d0fbd5a49192b1ce7b2e98b"dependency_paths[{"hexdigest"%de88496f8c715764ec856aee644ab10a"
-mtimeu:	Timeî
-Ä  Äö"	path"J$root/app/assets/javascripts/jquery_upload/jquery.iframe-transport.js"pathname"J$root/app/assets/javascripts/jquery_upload/jquery.iframe-transport.js"logical_path"-jquery_upload/jquery.iframe-transport.js:@compressedF:@created_atf1332795956.7206669 h
+;FI"asset_paths;F[I"J$root/app/assets/javascripts/jquery_upload/jquery.iframe-transport.js;TI"dependency_paths;F[{I"	path;FI"J$root/app/assets/javascripts/jquery_upload/jquery.iframe-transport.js;TI"
+mtime;FIu:	Timeî
+Ä  Äö:@_zoneI"#‚ïò—à—ç—ã¬†—ç—Ñ—à¬† (—á—à—å—Ä);T:offseti I"hexdigest;F"%9130b65deb59ae94c8d2174d37b5445fI"_version;F"%0868aba5d4b750d3a9421721ea3d9b9c:@created_atf1336472732.177417:@expires_in0

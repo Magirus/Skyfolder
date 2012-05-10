@@ -13,7 +13,8 @@ group :production do
   # gems specifically for Heroku go here
   gem 'mysql'
   gem "pg"
-
+  gem 'therubyracer-heroku'
+  gem 'thin'
 end
 
 gem 'json', '1.6.6'
@@ -29,7 +30,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails'
+#gem 'jquery-rails'
 gem "prototype-rails"
 
 # To use ActiveModel has_secure_password
@@ -38,7 +39,7 @@ gem "prototype-rails"
 # Use unicorn as the web server
 #gem 'therubyracer'
 #gem 'unicorn'
-#gem 'thin'
+
 
 # Deploy with Capistrano
 # gem 'capistrano'
