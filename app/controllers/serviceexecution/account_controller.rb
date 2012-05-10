@@ -31,7 +31,7 @@ class Serviceexecution::AccountController < ApplicationController
     else
       user_id = params[:id]
     end
-    base_url = "public/FILES/#{user_id}/"
+    base_url = "#{Rails.root}/FILES/#{user_id}/"
 
     file = Picture.find_by_file(params[:path])
     send_file base_url+params[:path], :type => "application", :x_sendfile => true
@@ -45,8 +45,8 @@ class Serviceexecution::AccountController < ApplicationController
     else
       user_id = params[:id]
     end
-    base_url = "public/FILES/#{user_id}/"
-    dec_url = "public/FILES/#{user_id}/tmp/"
+    base_url = "#{Rails.root}/FILES/#{user_id}/"
+    dec_url = "#{Rails.root}/FILES/#{user_id}/tmp/"
 
     check_dec_dir(dec_url)
 

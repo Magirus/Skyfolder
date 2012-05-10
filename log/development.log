@@ -46979,3 +46979,567 @@ Served asset /widgets/footer.jpg - 304 Not Modified (0ms)
 
 Started GET "/assets/rails.png" for 127.0.0.1 at 2012-05-10 19:38:11 +0300
 Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-05-10 20:20:48 +0300
+  Processing by Serviceexecution::StartupController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  [1m[35mSQL (0.0ms)[0m  BEGIN
+  [1m[36m (1.0ms)[0m  [1mUPDATE `users` SET `last_request_at` = '2012-05-10 17:20:54', `perishable_token` = '5TT1eDraKeHiea2QDxp' WHERE `users`.`id` = 3[0m
+  [1m[35m (30.0ms)[0m  COMMIT
+Rendered widgets/header.html.erb (23.0ms)
+Rendered widgets/footer.html.erb (0.0ms)
+Rendered serviceexecution/startup/index.html.erb within layouts/serviceexecution/startup (69.0ms)
+Completed 200 OK in 962ms (Views: 525.0ms | ActiveRecord: 63.0ms)
+
+
+Started GET "/assets/jquery_upload/bootstrap-min.css?body=1" for 127.0.0.1 at 2012-05-10 20:20:54 +0300
+Served asset /jquery_upload/bootstrap-min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery/jquery-ui.custom?body=1" for 127.0.0.1 at 2012-05-10 20:20:54 +0300
+Served asset /jquery/jquery-ui.custom - 304 Not Modified (0ms)
+
+
+Started GET "/assets/widgets/widget.css?body=1" for 127.0.0.1 at 2012-05-10 20:20:54 +0300
+Served asset /widgets/widget.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery/jquery.js?body=1" for 127.0.0.1 at 2012-05-10 20:20:54 +0300
+Served asset /jquery/jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/serviceexecution/startup.css?body=1" for 127.0.0.1 at 2012-05-10 20:20:54 +0300
+Served asset /serviceexecution/startup.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ie6/jquery-ie6blocker.js?body=1" for 127.0.0.1 at 2012-05-10 20:20:54 +0300
+Served asset /ie6/jquery-ie6blocker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-10 20:20:55 +0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery/jquery-ui-min.js?body=1" for 127.0.0.1 at 2012-05-10 20:20:55 +0300
+Served asset /jquery/jquery-ui-min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery/rails.js?body=1" for 127.0.0.1 at 2012-05-10 20:20:55 +0300
+Served asset /jquery/rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery/swfobject.js?body=1" for 127.0.0.1 at 2012-05-10 20:20:55 +0300
+Served asset /jquery/swfobject.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/widgets/widget.js?body=1" for 127.0.0.1 at 2012-05-10 20:20:55 +0300
+Served asset /widgets/widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/serviceexecution/starup.js?body=1" for 127.0.0.1 at 2012-05-10 20:20:55 +0300
+Served asset /serviceexecution/starup.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/widgets/jquery.color?body=1" for 127.0.0.1 at 2012-05-10 20:20:55 +0300
+Served asset /widgets/jquery.color - 304 Not Modified (0ms)
+
+
+Started GET "/assets/widgets/header.jpg" for 127.0.0.1 at 2012-05-10 20:20:56 +0300
+Served asset /widgets/header.jpg - 304 Not Modified (10ms)
+
+
+Started GET "/assets/widgets/text.png" for 127.0.0.1 at 2012-05-10 20:20:56 +0300
+Served asset /widgets/text.png - 304 Not Modified (9ms)
+
+
+Started GET "/assets/widgets/android-logo-white.png" for 127.0.0.1 at 2012-05-10 20:20:56 +0300
+Served asset /widgets/android-logo-white.png - 304 Not Modified (11ms)
+
+
+Started GET "/assets/cloud1.jpg" for 127.0.0.1 at 2012-05-10 20:20:56 +0300
+Served asset /cloud1.jpg - 304 Not Modified (7ms)
+
+
+Started GET "/assets/widgets/footer.jpg" for 127.0.0.1 at 2012-05-10 20:20:56 +0300
+Served asset /widgets/footer.jpg - 304 Not Modified (23ms)
+
+
+Started GET "/assets/jquery/images/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2012-05-10 20:20:56 +0300
+Served asset /jquery/images/ui-bg_flat_75_ffffff_40x100.png - 304 Not Modified (11ms)
+
+
+Started GET "/serviceexecution/account/3/showuser" for 127.0.0.1 at 2012-05-10 20:20:59 +0300
+  Processing by Serviceexecution::AccountController#showuser as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  [1m[35mSQL (1.0ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mUPDATE `users` SET `last_request_at` = '2012-05-10 17:20:59', `perishable_token` = 'xBJS9rvefgVu6oMYkgcb' WHERE `users`.`id` = 3[0m
+  [1m[35m (28.0ms)[0m  COMMIT
+  [1m[36mPicture Load (0.0ms)[0m  [1mSELECT `pictures`.* FROM `pictures` WHERE `pictures`.`user_id` = 3[0m
+Rendered widgets/header.html.erb (1.0ms)
+Rendered widgets/footer.html.erb (0.0ms)
+Rendered serviceexecution/account/showuser.html.erb within layouts/serviceexecution/account (64.0ms)
+Compiled jquery_upload/tmpl-min.js  (4ms)  (pid 4132)
+Compiled jquery_upload/load-image-min.js  (3ms)  (pid 4132)
+Compiled jquery_upload/canvas-to-blob-min.js  (3ms)  (pid 4132)
+Compiled jquery_upload/bootstrap-image-gallery-min.js  (3ms)  (pid 4132)
+Completed 200 OK in 843ms (Views: 342.0ms | ActiveRecord: 74.0ms)
+
+
+Started GET "/assets/jquery_upload/style.css?body=1" for 127.0.0.1 at 2012-05-10 20:21:00 +0300
+Served asset /jquery_upload/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_upload/bootstrap-min.css?body=1" for 127.0.0.1 at 2012-05-10 20:21:00 +0300
+Served asset /jquery_upload/bootstrap-min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_upload/bootstrap-responsive-min.css?body=1" for 127.0.0.1 at 2012-05-10 20:21:00 +0300
+Served asset /jquery_upload/bootstrap-responsive-min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_upload/bootstrap-image-gallery-min.css?body=1" for 127.0.0.1 at 2012-05-10 20:21:01 +0300
+Served asset /jquery_upload/bootstrap-image-gallery-min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_upload/jquery-fileupload-ui.css?body=1" for 127.0.0.1 at 2012-05-10 20:21:01 +0300
+Served asset /jquery_upload/jquery-fileupload-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_upload/tmpl-min.js?body=1" for 127.0.0.1 at 2012-05-10 20:21:01 +0300
+Served asset /jquery_upload/tmpl-min.js - 200 OK (8ms)
+
+
+Started GET "/assets/jquery/jquery.js?body=1" for 127.0.0.1 at 2012-05-10 20:21:01 +0300
+Served asset /jquery/jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_upload/vendor/jquery-ui-widget.js?body=1" for 127.0.0.1 at 2012-05-10 20:21:01 +0300
+Served asset /jquery_upload/vendor/jquery-ui-widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_upload/load-image-min.js?body=1" for 127.0.0.1 at 2012-05-10 20:21:01 +0300
+Served asset /jquery_upload/load-image-min.js - 200 OK (5ms)
+
+
+Started GET "/assets/jquery_upload/canvas-to-blob-min.js?body=1" for 127.0.0.1 at 2012-05-10 20:21:01 +0300
+Served asset /jquery_upload/canvas-to-blob-min.js - 200 OK (9ms)
+
+
+Started GET "/assets/jquery_upload/bootstrap-image-gallery-min.js?body=1" for 127.0.0.1 at 2012-05-10 20:21:01 +0300
+Served asset /jquery_upload/bootstrap-image-gallery-min.js - 200 OK (7ms)
+
+
+Started GET "/assets/jquery_upload/jquery-iframe-transport.js?body=1" for 127.0.0.1 at 2012-05-10 20:21:01 +0300
+Served asset /jquery_upload/jquery-iframe-transport.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_upload/bootstrap-min.js?body=1" for 127.0.0.1 at 2012-05-10 20:21:01 +0300
+Served asset /jquery_upload/bootstrap-min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_upload/jquery-fileupload.js?body=1" for 127.0.0.1 at 2012-05-10 20:21:01 +0300
+Served asset /jquery_upload/jquery-fileupload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_upload/jquery-fileupload-ip.js?body=1" for 127.0.0.1 at 2012-05-10 20:21:01 +0300
+Served asset /jquery_upload/jquery-fileupload-ip.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_upload/jquery-fileupload-ui.js?body=1" for 127.0.0.1 at 2012-05-10 20:21:01 +0300
+Served asset /jquery_upload/jquery-fileupload-ui.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_upload/locale.js?body=1" for 127.0.0.1 at 2012-05-10 20:21:01 +0300
+Served asset /jquery_upload/locale.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_upload/main.js?body=1" for 127.0.0.1 at 2012-05-10 20:21:01 +0300
+Served asset /jquery_upload/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/widgets/widget.css?body=1" for 127.0.0.1 at 2012-05-10 20:21:01 +0300
+Served asset /widgets/widget.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/serviceexecution/startup.css?body=1" for 127.0.0.1 at 2012-05-10 20:21:01 +0300
+Served asset /serviceexecution/startup.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery/jquery-ui.custom?body=1" for 127.0.0.1 at 2012-05-10 20:21:01 +0300
+Served asset /jquery/jquery-ui.custom - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-10 20:21:01 +0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery/uploadify.css?body=1" for 127.0.0.1 at 2012-05-10 20:21:01 +0300
+Served asset /jquery/uploadify.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery/jquery-ui-min.js?body=1" for 127.0.0.1 at 2012-05-10 20:21:01 +0300
+Served asset /jquery/jquery-ui-min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery/rails.js?body=1" for 127.0.0.1 at 2012-05-10 20:21:02 +0300
+Served asset /jquery/rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery/swfobject.js?body=1" for 127.0.0.1 at 2012-05-10 20:21:02 +0300
+Served asset /jquery/swfobject.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/widgets/widget.js?body=1" for 127.0.0.1 at 2012-05-10 20:21:02 +0300
+Served asset /widgets/widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/serviceexecution/starup.js?body=1" for 127.0.0.1 at 2012-05-10 20:21:02 +0300
+Served asset /serviceexecution/starup.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/widgets/jquery.color?body=1" for 127.0.0.1 at 2012-05-10 20:21:02 +0300
+Served asset /widgets/jquery.color - 304 Not Modified (0ms)
+
+
+Started GET "/uploader/pictures" for 127.0.0.1 at 2012-05-10 20:21:02 +0300
+  Processing by Uploader::PicturesController#index as JSON
+  [1m[35mUser Load (1.0ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+  [1m[36mSQL (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.0ms)[0m  UPDATE `users` SET `last_request_at` = '2012-05-10 17:21:02', `perishable_token` = 'Rzsm6UmjGB4YtCTLTsD' WHERE `users`.`id` = 3
+  [1m[36m (38.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mPicture Load (0.0ms)[0m  SELECT `pictures`.* FROM `pictures` WHERE `pictures`.`user_id` = 3
+Completed 200 OK in 178ms (Views: 19.0ms | ActiveRecord: 82.0ms)
+
+
+Started GET "/assets/widgets/header.jpg" for 127.0.0.1 at 2012-05-10 20:21:02 +0300
+Served asset /widgets/header.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/widgets/text.png" for 127.0.0.1 at 2012-05-10 20:21:02 +0300
+Served asset /widgets/text.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/widgets/android-logo-white.png" for 127.0.0.1 at 2012-05-10 20:21:03 +0300
+Served asset /widgets/android-logo-white.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/serviceexecution/Upload.png" for 127.0.0.1 at 2012-05-10 20:21:03 +0300
+Served asset /serviceexecution/Upload.png - 304 Not Modified (13ms)
+
+
+Started GET "/assets/jquery_upload/glyphicons-halflings-white.png" for 127.0.0.1 at 2012-05-10 20:21:03 +0300
+Served asset /jquery_upload/glyphicons-halflings-white.png - 304 Not Modified (16ms)
+
+
+Started GET "/assets/jquery_upload/loading.gif" for 127.0.0.1 at 2012-05-10 20:21:03 +0300
+Served asset /jquery_upload/loading.gif - 304 Not Modified (12ms)
+
+
+Started GET "/assets/widgets/footer.jpg" for 127.0.0.1 at 2012-05-10 20:21:03 +0300
+Served asset /widgets/footer.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Security-Lock.png" for 127.0.0.1 at 2012-05-10 20:21:03 +0300
+Served asset /Security-Lock.png - 304 Not Modified (6ms)
+
+
+Started GET "/assets/24.png" for 127.0.0.1 at 2012-05-10 20:21:03 +0300
+Served asset /24.png - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery/images/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2012-05-10 20:21:07 +0300
+Served asset /jquery/images/ui-bg_flat_75_ffffff_40x100.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery/images/ui-bg_flat_0_aaaaaa_40x100.png" for 127.0.0.1 at 2012-05-10 20:21:07 +0300
+Served asset /jquery/images/ui-bg_flat_0_aaaaaa_40x100.png - 304 Not Modified (27ms)
+
+
+Started GET "/assets/jquery/images/ui-bg_glass_100_c6dadb_1x400.png" for 127.0.0.1 at 2012-05-10 20:21:07 +0300
+Served asset /jquery/images/ui-bg_glass_100_c6dadb_1x400.png - 304 Not Modified (18ms)
+
+
+Started GET "/assets/jquery/images/ui-icons_222222_256x240.png" for 127.0.0.1 at 2012-05-10 20:21:07 +0300
+Served asset /jquery/images/ui-icons_222222_256x240.png - 304 Not Modified (22ms)
+
+
+Started GET "/assets/jquery/images/ui-bg_glass_75_f4f9fb_1x400.png" for 127.0.0.1 at 2012-05-10 20:21:07 +0300
+Served asset /jquery/images/ui-bg_glass_75_f4f9fb_1x400.png - 304 Not Modified (21ms)
+
+
+Started GET "/assets/jquery/images/ui-bg_glass_75_dadada_1x400.png" for 127.0.0.1 at 2012-05-10 20:21:08 +0300
+Served asset /jquery/images/ui-bg_glass_75_dadada_1x400.png - 304 Not Modified (23ms)
+
+
+Started DELETE "/uploader/pictures/515" for 127.0.0.1 at 2012-05-10 20:21:08 +0300
+  Processing by Uploader::PicturesController#destroy as JSON
+  Parameters: {"id"=>"515"}
+  [1m[36mPicture Load (1.0ms)[0m  [1mSELECT `pictures`.* FROM `pictures` WHERE `pictures`.`id` = ? LIMIT 1[0m  [["id", "515"]]
+  [1m[35mSQL (0.0ms)[0m  BEGIN
+  [1m[36mSQL (7.0ms)[0m  [1mDELETE FROM `pictures` WHERE `pictures`.`id` = ?[0m  [["id", 515]]
+  [1m[35m (16.0ms)[0m  COMMIT
+Completed 200 OK in 74ms (Views: 19.0ms | ActiveRecord: 47.0ms)
+
+
+Started GET "/assets/jquery/images/ui-bg_glass_65_ffffff_1x400.png" for 127.0.0.1 at 2012-05-10 20:21:08 +0300
+Served asset /jquery/images/ui-bg_glass_65_ffffff_1x400.png - 304 Not Modified (31ms)
+
+
+Started DELETE "/uploader/pictures/513" for 127.0.0.1 at 2012-05-10 20:21:10 +0300
+  Processing by Uploader::PicturesController#destroy as JSON
+  Parameters: {"id"=>"513"}
+  [1m[36mPicture Load (0.0ms)[0m  [1mSELECT `pictures`.* FROM `pictures` WHERE `pictures`.`id` = ? LIMIT 1[0m  [["id", "513"]]
+  [1m[35mSQL (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mDELETE FROM `pictures` WHERE `pictures`.`id` = ?[0m  [["id", 513]]
+  [1m[35m (30.0ms)[0m  COMMIT
+Completed 200 OK in 82ms (Views: 19.0ms | ActiveRecord: 54.0ms)
+
+
+Started DELETE "/uploader/pictures/510" for 127.0.0.1 at 2012-05-10 20:21:11 +0300
+  Processing by Uploader::PicturesController#destroy as JSON
+  Parameters: {"id"=>"510"}
+  [1m[36mPicture Load (0.0ms)[0m  [1mSELECT `pictures`.* FROM `pictures` WHERE `pictures`.`id` = ? LIMIT 1[0m  [["id", "510"]]
+  [1m[35mSQL (1.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mDELETE FROM `pictures` WHERE `pictures`.`id` = ?[0m  [["id", 510]]
+  [1m[35m (32.0ms)[0m  COMMIT
+Completed 200 OK in 109ms (Views: 19.0ms | ActiveRecord: 58.0ms)
+
+
+Started DELETE "/uploader/pictures/509" for 127.0.0.1 at 2012-05-10 20:21:13 +0300
+  Processing by Uploader::PicturesController#destroy as JSON
+  Parameters: {"id"=>"509"}
+  [1m[36mPicture Load (0.0ms)[0m  [1mSELECT `pictures`.* FROM `pictures` WHERE `pictures`.`id` = ? LIMIT 1[0m  [["id", "509"]]
+  [1m[35mSQL (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mDELETE FROM `pictures` WHERE `pictures`.`id` = ?[0m  [["id", 509]]
+  [1m[35m (52.0ms)[0m  COMMIT
+Completed 200 OK in 126ms (Views: 19.0ms | ActiveRecord: 76.0ms)
+
+
+Started GET "/serviceexecution/account/3/showuser" for 127.0.0.1 at 2012-05-10 20:23:12 +0300
+  Processing by Serviceexecution::AccountController#showuser as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  [1m[35mSQL (0.0ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mUPDATE `users` SET `last_request_at` = '2012-05-10 17:23:12', `perishable_token` = 'E6r46OJfB3JPKFuYpfJK' WHERE `users`.`id` = 3[0m
+  [1m[35m (21.0ms)[0m  COMMIT
+  [1m[36mPicture Load (0.0ms)[0m  [1mSELECT `pictures`.* FROM `pictures` WHERE `pictures`.`user_id` = 3[0m
+Rendered widgets/header.html.erb (2.0ms)
+Rendered widgets/footer.html.erb (0.0ms)
+Rendered serviceexecution/account/showuser.html.erb within layouts/serviceexecution/account (32.0ms)
+Completed 200 OK in 241ms (Views: 79.0ms | ActiveRecord: 68.0ms)
+
+
+Started GET "/assets/jquery_upload/bootstrap-min.css?body=1" for 127.0.0.1 at 2012-05-10 20:23:13 +0300
+Served asset /jquery_upload/bootstrap-min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_upload/style.css?body=1" for 127.0.0.1 at 2012-05-10 20:23:13 +0300
+Served asset /jquery_upload/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_upload/bootstrap-image-gallery-min.css?body=1" for 127.0.0.1 at 2012-05-10 20:23:13 +0300
+Served asset /jquery_upload/bootstrap-image-gallery-min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_upload/bootstrap-responsive-min.css?body=1" for 127.0.0.1 at 2012-05-10 20:23:13 +0300
+Served asset /jquery_upload/bootstrap-responsive-min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery/jquery.js?body=1" for 127.0.0.1 at 2012-05-10 20:23:13 +0300
+Served asset /jquery/jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_upload/jquery-fileupload-ui.css?body=1" for 127.0.0.1 at 2012-05-10 20:23:13 +0300
+Served asset /jquery_upload/jquery-fileupload-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_upload/vendor/jquery-ui-widget.js?body=1" for 127.0.0.1 at 2012-05-10 20:23:13 +0300
+Served asset /jquery_upload/vendor/jquery-ui-widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_upload/tmpl-min.js?body=1" for 127.0.0.1 at 2012-05-10 20:23:13 +0300
+Served asset /jquery_upload/tmpl-min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_upload/load-image-min.js?body=1" for 127.0.0.1 at 2012-05-10 20:23:13 +0300
+Served asset /jquery_upload/load-image-min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_upload/canvas-to-blob-min.js?body=1" for 127.0.0.1 at 2012-05-10 20:23:13 +0300
+Served asset /jquery_upload/canvas-to-blob-min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_upload/bootstrap-min.js?body=1" for 127.0.0.1 at 2012-05-10 20:23:13 +0300
+Served asset /jquery_upload/bootstrap-min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_upload/bootstrap-image-gallery-min.js?body=1" for 127.0.0.1 at 2012-05-10 20:23:13 +0300
+Served asset /jquery_upload/bootstrap-image-gallery-min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_upload/jquery-iframe-transport.js?body=1" for 127.0.0.1 at 2012-05-10 20:23:13 +0300
+Served asset /jquery_upload/jquery-iframe-transport.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_upload/jquery-fileupload.js?body=1" for 127.0.0.1 at 2012-05-10 20:23:13 +0300
+Served asset /jquery_upload/jquery-fileupload.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_upload/jquery-fileupload-ip.js?body=1" for 127.0.0.1 at 2012-05-10 20:23:13 +0300
+Served asset /jquery_upload/jquery-fileupload-ip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_upload/jquery-fileupload-ui.js?body=1" for 127.0.0.1 at 2012-05-10 20:23:13 +0300
+Served asset /jquery_upload/jquery-fileupload-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_upload/locale.js?body=1" for 127.0.0.1 at 2012-05-10 20:23:13 +0300
+Served asset /jquery_upload/locale.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_upload/main.js?body=1" for 127.0.0.1 at 2012-05-10 20:23:14 +0300
+Served asset /jquery_upload/main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/widgets/widget.css?body=1" for 127.0.0.1 at 2012-05-10 20:23:14 +0300
+Served asset /widgets/widget.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/serviceexecution/startup.css?body=1" for 127.0.0.1 at 2012-05-10 20:23:14 +0300
+Served asset /serviceexecution/startup.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery/jquery-ui.custom?body=1" for 127.0.0.1 at 2012-05-10 20:23:14 +0300
+Served asset /jquery/jquery-ui.custom - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-05-10 20:23:14 +0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery/uploadify.css?body=1" for 127.0.0.1 at 2012-05-10 20:23:14 +0300
+Served asset /jquery/uploadify.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery/jquery-ui-min.js?body=1" for 127.0.0.1 at 2012-05-10 20:23:14 +0300
+Served asset /jquery/jquery-ui-min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery/rails.js?body=1" for 127.0.0.1 at 2012-05-10 20:23:14 +0300
+Served asset /jquery/rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery/swfobject.js?body=1" for 127.0.0.1 at 2012-05-10 20:23:14 +0300
+Served asset /jquery/swfobject.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/widgets/widget.js?body=1" for 127.0.0.1 at 2012-05-10 20:23:14 +0300
+Served asset /widgets/widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/serviceexecution/starup.js?body=1" for 127.0.0.1 at 2012-05-10 20:23:14 +0300
+Served asset /serviceexecution/starup.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/widgets/jquery.color?body=1" for 127.0.0.1 at 2012-05-10 20:23:14 +0300
+Served asset /widgets/jquery.color - 304 Not Modified (0ms)
+
+
+Started GET "/uploader/pictures" for 127.0.0.1 at 2012-05-10 20:23:15 +0300
+  Processing by Uploader::PicturesController#index as JSON
+  [1m[35mUser Load (1.0ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+  [1m[36mSQL (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.0ms)[0m  UPDATE `users` SET `last_request_at` = '2012-05-10 17:23:15', `perishable_token` = 'dDFEwLLWZoq1YoVq3k3d' WHERE `users`.`id` = 3
+  [1m[36m (20.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mPicture Load (0.0ms)[0m  SELECT `pictures`.* FROM `pictures` WHERE `pictures`.`user_id` = 3
+Completed 200 OK in 200ms (Views: 19.0ms | ActiveRecord: 50.0ms)
+
+
+Started GET "/assets/widgets/header.jpg" for 127.0.0.1 at 2012-05-10 20:23:15 +0300
+Served asset /widgets/header.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/widgets/text.png" for 127.0.0.1 at 2012-05-10 20:23:15 +0300
+Served asset /widgets/text.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/widgets/android-logo-white.png" for 127.0.0.1 at 2012-05-10 20:23:15 +0300
+Served asset /widgets/android-logo-white.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/serviceexecution/Upload.png" for 127.0.0.1 at 2012-05-10 20:23:15 +0300
+Served asset /serviceexecution/Upload.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_upload/glyphicons-halflings-white.png" for 127.0.0.1 at 2012-05-10 20:23:15 +0300
+Served asset /jquery_upload/glyphicons-halflings-white.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_upload/loading.gif" for 127.0.0.1 at 2012-05-10 20:23:15 +0300
+Served asset /jquery_upload/loading.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/widgets/footer.jpg" for 127.0.0.1 at 2012-05-10 20:23:15 +0300
+Served asset /widgets/footer.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-05-10 20:23:16 +0300
+Served asset /rails.png - 200 OK (12ms)
+
+
+Started POST "/uploader/pictures?enc=false" for 127.0.0.1 at 2012-05-10 20:25:22 +0300
+  Processing by Uploader::PicturesController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dTiqCiYYMEfKG9uKqTObNelhb+DQsK/DBj4A6sAuagE=", "picture"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x457f1d0 @original_filename="rocky.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"picture[file]\"; filename=\"rocky.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:C:/Users/CIVIC/AppData/Local/Temp/RackMultipart20120510-4132-3je05t>>}, "enc"=>"false"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  [1m[35mSQL (1.0ms)[0m  BEGIN
+  [1m[36m (1.0ms)[0m  [1mUPDATE `users` SET `last_request_at` = '2012-05-10 17:25:22', `perishable_token` = 'zHog71VNstJSeV74rUK' WHERE `users`.`id` = 3[0m
+  [1m[35m (32.0ms)[0m  COMMIT
+  [1m[36mPicture Load (1.0ms)[0m  [1mSELECT `pictures`.* FROM `pictures` WHERE `pictures`.`file` = 'rocky.jpg' LIMIT 1[0m
+  [1m[35mSQL (0.0ms)[0m  BEGIN
+  [1m[36mSQL (16.0ms)[0m  [1mINSERT INTO `pictures` (`file`, `key`, `user_id`) VALUES (?, ?, ?)[0m  [["file", "rocky.jpg"], ["key", 0], ["user_id", 3]]
+  [1m[35m (27.0ms)[0m  COMMIT
+Completed 200 OK in 289ms (Views: 4.0ms | ActiveRecord: 147.0ms)
+
+
+Started GET "/assets/24.png" for 127.0.0.1 at 2012-05-10 20:25:23 +0300
+Served asset /24.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery/images/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2012-05-10 20:25:48 +0300
+Served asset /jquery/images/ui-bg_flat_75_ffffff_40x100.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery/images/ui-bg_flat_0_aaaaaa_40x100.png" for 127.0.0.1 at 2012-05-10 20:25:48 +0300
+Served asset /jquery/images/ui-bg_flat_0_aaaaaa_40x100.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery/images/ui-bg_glass_100_c6dadb_1x400.png" for 127.0.0.1 at 2012-05-10 20:25:48 +0300
+Served asset /jquery/images/ui-bg_glass_100_c6dadb_1x400.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery/images/ui-icons_222222_256x240.png" for 127.0.0.1 at 2012-05-10 20:25:48 +0300
+Served asset /jquery/images/ui-icons_222222_256x240.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery/images/ui-bg_glass_75_f4f9fb_1x400.png" for 127.0.0.1 at 2012-05-10 20:25:48 +0300
+Served asset /jquery/images/ui-bg_glass_75_f4f9fb_1x400.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery/images/ui-bg_glass_75_dadada_1x400.png" for 127.0.0.1 at 2012-05-10 20:25:48 +0300
+Served asset /jquery/images/ui-bg_glass_75_dadada_1x400.png - 304 Not Modified (0ms)
+
+
+Started DELETE "/uploader/pictures/516" for 127.0.0.1 at 2012-05-10 20:25:48 +0300
+  Processing by Uploader::PicturesController#destroy as JSON
+  Parameters: {"id"=>"516"}
+  [1m[36mPicture Load (1.0ms)[0m  [1mSELECT `pictures`.* FROM `pictures` WHERE `pictures`.`id` = ? LIMIT 1[0m  [["id", "516"]]
+  [1m[35mSQL (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mDELETE FROM `pictures` WHERE `pictures`.`id` = ?[0m  [["id", 516]]
+  [1m[35m (34.0ms)[0m  COMMIT
+Completed 200 OK in 87ms (Views: 21.0ms | ActiveRecord: 60.0ms)
+
+
+Started GET "/assets/jquery/images/ui-bg_glass_65_ffffff_1x400.png" for 127.0.0.1 at 2012-05-10 20:25:49 +0300
+Served asset /jquery/images/ui-bg_glass_65_ffffff_1x400.png - 304 Not Modified (0ms)
