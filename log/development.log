@@ -44774,3 +44774,25 @@ Served asset /widgets/footer.jpg - 304 Not Modified (0ms)
 
 Started GET "/assets/rails.png" for 127.0.0.1 at 2012-05-10 18:09:31 +0300
 Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-05-10 18:21:17 +0300
+Served asset /rails.png - 304 Not Modified (0ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreatePosts (20111113210900)
+Migrating to CreateUsers (20111210104828)
+Migrating to CreateUserSessions (20111210150556)
+Migrating to Pictures (20120327071362)
+  [1m[35m (18.0ms)[0m  CREATE TABLE `pictures` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `file` varchar(255), `key` varchar(255), `user_id` int(11)) ENGINE=InnoDB
+Mysql::Error: Table 'pictures' already exists: CREATE TABLE `pictures` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `file` varchar(255), `key` varchar(255), `user_id` int(11)) ENGINE=InnoDB
+  [1m[36m (0.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreatePosts (20111113210900)
+Migrating to CreateUsers (20111210104828)
+Migrating to CreateUserSessions (20111210150556)
+Migrating to Pictures (20120327071362)
+  [1m[35m (0.0ms)[0m  CREATE TABLE `pictures` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `file` varchar(255), `key` varchar(255), `user_id` int(11)) ENGINE=InnoDB
+Mysql::Error: Table 'pictures' already exists: CREATE TABLE `pictures` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `file` varchar(255), `key` varchar(255), `user_id` int(11)) ENGINE=InnoDB
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-05-10 18:28:16 +0300
+Served asset /rails.png - 304 Not Modified (0ms)
