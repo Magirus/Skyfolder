@@ -1,4 +1,4 @@
-worker_processes 1
+worker_processes 5
 preload_app true
 
 timeout 30000
@@ -9,17 +9,17 @@ listen 3000
 
 
 # Set the path of the log files inside the log folder of the testapp
-stderr_path "/media/sf_C_DRIVE/blog/log/unicorn.stderr.log"
-stdout_path "/media/sf_C_DRIVE/blog/log/unicorn.stdout.log"
+stderr_path "/media/sf_C_DRIVE/skyfolder/log/unicorn.stderr.log"
+stdout_path "/media/sf_C_DRIVE/skyfolder/log/unicorn.stdout.log"
 
 before_fork do |server, worker|
-  # Перед тем, как создать первый рабочий процесс, мастер отсоединяется от базы.
+  # пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ, пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅ.
   defined?(ActiveRecord::Base) and
   ActiveRecord::Base.connection.disconnect!
 end
 
 after_fork do |server, worker|
-  # После того как рабочий процесс создан, он устанавливает соединение с базой.
+  # пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ.
   defined?(ActiveRecord::Base) and
   ActiveRecord::Base.establish_connection
 end

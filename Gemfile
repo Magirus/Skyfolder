@@ -9,13 +9,6 @@ gem 'rails'
 group :development do
 	gem 'mysql'
 end
-group :production do
-  # gems specifically for Heroku go here
-  gem 'mysql'
-  gem "pg"
-  gem 'therubyracer-heroku'
-  gem 'thin'
-end
 
 gem 'json', '1.6.6'
 gem "authlogic"
@@ -37,8 +30,8 @@ gem "prototype-rails"
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
 # Use unicorn as the web server
-#gem 'therubyracer'
-#gem 'unicorn'
+gem 'therubyracer'
+gem 'unicorn'
 
 
 # Deploy with Capistrano
